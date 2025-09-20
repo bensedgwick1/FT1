@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | World Population Explorer</title>
+    <meta name="description" content="Learn about the World Population Explorer project and data sources">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <style>
+        .globe-bg {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+        }
+    </style>
+</head>
+<body class="min-h-screen bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <i data-feather="globe" class="text-blue-600 mr-2"></i>
+                    <span class="text-xl font-semibold text-gray-900">World Population</span>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <a href="index.html" class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">Home</a>
+                    <a href="about.html" class="text-blue-600 px-3 py-2 rounded-md text-sm font-medium">About</a>
+                    <a href="employers.html" class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">US Employers</a>
+                    <a href="beautiful-places.html" class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">Beautiful Places</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="globe-bg text-white py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-4xl md:text-6xl font-bold mb-6" data-aos="fade-up">About This Project</h1>
+            <p class="text-xl md:text-2xl mb-8 max-w-3xl mx-auto" data-aos="fade-up" data-aos-delay="100">
+                Learn about our data sources and methodology
+            </p>
+        </div>
+    </div>
+
+    <!-- About Content -->
+    <div class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-3xl mx-auto">
+                <h2 class="text-3xl font-bold mb-6 text-gray-900">Data Sources</h2>
+                <p class="text-gray-600 mb-6">
+                    All population data is sourced from <a href="https://www.worldometers.info/world-population/population-by-country/" class="text-blue-600 hover:underline" target="_blank">Worldometer's population statistics</a>, which provides real-time estimates based on the latest United Nations data.
+                </p>
+                
+                <h2 class="text-3xl font-bold mb-6 text-gray-900 mt-12">Methodology</h2>
+                <p class="text-gray-600 mb-4">
+                    The rankings are based on the most recent population estimates available. We update our data periodically to reflect the latest demographic changes.
+                </p>
+                
+                <h2 class="text-3xl font-bold mb-6 text-gray-900 mt-12">Contact</h2>
+                <p class="text-gray-600">
+                    For questions or suggestions, please email us at <a href="mailto:info@worldpopulationexplorer.com" class="text-blue-600 hover:underline">info@worldpopulationexplorer.com</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">World Population</h3>
+                    <p class="text-gray-400">Exploring demographic data and population statistics from around the globe.</p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="text-gray-400 hover:text-white transition">Home</a></li>
+                        <li><a href="about.html" class="text-gray-400 hover:text-white transition">About</a></li>
+                        <li><a href="employers.html" class="text-gray-400 hover:text-white transition">US Employers</a></li>
+                        <li><a href="beautiful-places.html" class="text-gray-400 hover:text-white transition">Beautiful Places</a></li>
+                        <li><a href="https://www.worldometers.info/world-population/population-by-country/" class="text-gray-400 hover:text-white transition" target="_blank">Data Source</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Connect</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition"><i data-feather="twitter"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white transition"><i data-feather="facebook"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white transition"><i data-feather="instagram"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white transition"><i data-feather="github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
+                <p>© <script>document.write(new Date().getFullYear())</script> World Population. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>AOS.init();</script>
+    <script>feather.replace();</script>
+</body>
+</html>

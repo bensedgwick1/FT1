@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beautiful Places | World Explorer</title>
+    <meta name="description" content="Discover the top 10 most beautiful places in the world you must visit">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <style>
+        .nature-bg {
+            background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+        }
+        .place-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        .place-image {
+            height: 200px;
+            width: 100%;
+            object-fit: cover;
+            border-radius: 8px 8px 0 0;
+        }
+    </style>
+</head>
+<body class="min-h-screen bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <i data-feather="globe" class="text-blue-600 mr-2"></i>
+                    <span class="text-xl font-semibold text-gray-900">World Explorer</span>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <a href="index.html" class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">Home</a>
+                    <a href="about.html" class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">About</a>
+                    <a href="employers.html" class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">US Employers</a>
+                    <a href="beautiful-places.html" class="text-blue-600 px-3 py-2 rounded-md text-sm font-medium">Beautiful Places</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="nature-bg text-white py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-4xl md:text-6xl font-bold mb-6" data-aos="fade-up">Top 10 Most Beautiful Places</h1>
+            <p class="text-xl md:text-2xl mb-8 max-w-3xl mx-auto" data-aos="fade-up" data-aos-delay="100">
+                Discover breathtaking destinations around the world
+            </p>
+            <a href="#places" class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-green-700 bg-white hover:bg-gray-100 transition duration-300" data-aos="fade-up" data-aos-delay="200">
+                View Places
+                <i data-feather="arrow-down" class="ml-2"></i>
+            </a>
+        </div>
+    </div>
+
+    <!-- Places Section -->
+    <div id="places" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-900" data-aos="fade-up">Breathtaking Destinations</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Place 1: Santorini -->
+                <div class="place-card bg-white rounded-lg shadow-md overflow-hidden transition duration-300" data-aos="fade-up">
+                    <img src="http://static.photos/travel/640x360/1" alt="Santorini" class="place-image">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">1. Santorini, Greece</h3>
+                        <p class="text-gray-600">Famous for its whitewashed buildings, blue domes, and stunning sunsets over the Aegean Sea.</p>
+                    </div>
+                </div>
+
+                <!-- Place 2: Banff National Park -->
+                <div class="place-card bg-white rounded-lg shadow-md overflow-hidden transition duration-300" data-aos="fade-up" data-aos-delay="100">
+                    <img src="http://static.photos/nature/640x360/2" alt="Banff National Park" class="place-image">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">2. Banff National Park, Canada</h3>
+                        <p class="text-gray-600">Alpine lakes, glaciers, and the majestic Rocky Mountains create a nature lover's paradise.</p>
+                    </div>
+                </div>
+
+                <!-- Place 3: Petra -->
+                <div class="place-card bg-white rounded-lg shadow-md overflow-hidden transition duration-300" data-aos="fade-up" data-aos-delay="200">
+                    <img src="http://static.photos/travel/640x360/3" alt="Petra" class="place-image">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">3. Petra, Jordan</h3>
+                        <p class="text-gray-600">The ancient 'Rose City' carved into pink sandstone cliffs is a wonder of the world.</p>
+                    </div>
+                </div>
+
+                <!-- Place 4: Milford Sound -->
+                <div class="place-card bg-white rounded-lg shadow-md overflow-hidden transition duration-300" data-aos="fade-up">
+                    <img src="http://static.photos/nature/640x360/4" alt="Milford Sound" class="place-image">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">4. Milford Sound, New Zealand</h3>
+                        <p class="text-gray-600">Rainforest-cloaked cliffs rising from dark waters with stunning waterfalls and wildlife.</p>
+                    </div>
+                </div>
+
+                <!-- Place 5: Giethoorn -->
+                <div class="place-card bg-white rounded-lg shadow-md overflow-hidden transition duration-300" data-aos="fade-up" data-aos-delay="100">
+                    <img src="http://static.photos/travel/640x360/5" alt="Giethoorn" class="place-image">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">5. Giethoorn, Netherlands</h3>
+                        <p class="text-gray-600">The 'Venice of the North' with charming thatched-roof cottages and car-free waterways.</p>
+                    </div>
+                </div>
+
+                <!-- Place 6: Plitvice Lakes -->
+                <div class="place-card bg-white rounded-lg shadow-md overflow-hidden transition duration-300" data-aos="fade-up" data-aos-delay="200">
+                    <img src="http://static.photos/nature/640x360/6" alt="Plitvice Lakes" class="place-image">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">6. Plitvice Lakes, Croatia</h3>
+                        <p class="text-gray-600">Terraced lakes connected by waterfalls in hues of emerald, turquoise and blue.</p>
+                    </div>
+                </div>
+
+                <!-- Place 7: Zhangjiajie -->
+                <div class="place-card bg-white rounded-lg shadow-md overflow-hidden transition duration-300" data-aos="fade-up">
+                    <img src="http://static.photos/nature/640x360/7" alt="Zhangjiajie" class="place-image">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">7. Zhangjiajie, China</h3>
+                        <p class="text-gray-600">Towering sandstone pillars that inspired the landscapes in Avatar's Pandora.</p>
+                    </div>
+                </div>
+
+                <!-- Place 8: Antelope Canyon -->
+                <div class="place-card bg-white rounded-lg shadow-md overflow-hidden transition duration-300" data-aos="fade-up" data-aos-delay="100">
+                    <img src="http://static.photos/nature/640x360/8" alt="Antelope Canyon" class="place-image">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">8. Antelope Canyon, USA</h3>
+                        <p class="text-gray-600">Sinuous sandstone walls with stunning light beams creating otherworldly colors.</p>
+                    </div>
+                </div>
+
+                <!-- Place 9: Salar de Uyuni -->
+                <div class="place-card bg-white rounded-lg shadow-md overflow-hidden transition duration-300" data-aos="fade-up" data-aos-delay="200">
+                    <img src="http://static.photos/travel/640x360/9" alt="Salar de Uyuni" class="place-image">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">9. Salar de Uyuni, Bolivia</h3>
+                        <p class="text-gray-600">The world's largest salt flat creates surreal mirror-like reflections when covered with water.</p>
+                    </div>
+                </div>
+
+                <!-- Place 10: Bora Bora -->
+                <div class="place-card bg-white rounded-lg shadow-md overflow-hidden transition duration-300" data-aos="fade-up">
+                    <img src="http://static.photos/travel/640x360/10" alt="Bora Bora" class="place-image">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">10. Bora Bora, French Polynesia</h3>
+                        <p class="text-gray-600">Turquoise lagoon protected by a coral reef with luxury overwater bungalows.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">World Explorer</h3>
+                    <p class="text-gray-400">Discovering the most beautiful places on Earth.</p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="text-gray-400 hover:text-white transition">Home</a></li>
+                        <li><a href="about.html" class="text-gray-400 hover:text-white transition">About</a></li>
+                        <li><a href="employers.html" class="text-gray-400 hover:text-white transition">US Employers</a></li>
+                        <li><a href="beautiful-places.html" class="text-gray-400 hover:text-white transition">Beautiful Places</a></li>
+                        <li><a href="https://trulyexperiencesblog.com/most-beautiful-places-in-the-world/" class="text-gray-400 hover:text-white transition" target="_blank">Data Source</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Connect</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition"><i data-feather="twitter"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white transition"><i data-feather="facebook"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white transition"><i data-feather="instagram"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white transition"><i data-feather="github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
+                <p>© <script>document.write(new Date().getFullYear())</script> World Explorer. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>AOS.init();</script>
+    <script>feather.replace();</script>
+</body>
+</html>

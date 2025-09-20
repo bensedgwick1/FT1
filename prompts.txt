@@ -2,3 +2,8 @@ Add a page that uses this link that tells me the top 10 countries by population:
 Great now add another page that links to the largest us employers and give me the top ten by market cap or by number of employees: Use this website for the data https://fiscal.ai/lists/us-employees/
 Why is the information different than what's on the actual website? 
 Great now change India to number one because it has the most population the rest looks correct.
+Now is this website ready to upload to gh-pages on github or do further changes need to be made? 
+Generate a new page: Great now add another page that links to the largest us employers and give me the top ten by market cap or by number of employees: Use this website for the data https://fiscal.ai/lists/us-employees/
+Create one more page that shows current currency tracker for the top ten currencies. 
+Create a new page that gives me the 10 top most beautiful places I need to visit: https://trulyexperiencesblog.com/most-beautiful-places-in-the-world/
+Create a new page that gives me the 10 top most beautiful places I need to visit: https://trulyexperiencesblog.com/most-beautiful-places-in-the-world/
