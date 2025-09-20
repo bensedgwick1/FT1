@@ -7,3 +7,9 @@ Generate a new page: Great now add another page that links to the largest us emp
 Create one more page that shows current currency tracker for the top ten currencies. 
 Create a new page that gives me the 10 top most beautiful places I need to visit: https://trulyexperiencesblog.com/most-beautiful-places-in-the-world/
 Create a new page that gives me the 10 top most beautiful places I need to visit: https://trulyexperiencesblog.com/most-beautiful-places-in-the-world/
+Add a link to this website as well on this beautiful-places.html page: https://travel.usnews.com/rankings/worlds-best-vacations/
+Make the font for More Destinations POP OUT maybe make it red or something? 
+Give me another webpage dedicated to the cheapest places to go that are on the best destinations list do to the United States having greater purchasing power there. 
+Let's also make a webpage that shows me the top ten kids songs for 2025
+For each of the most beautiful-places I want you to embed links to pictures of each place. For instance Banff National Park should show me several pictures of it's beautiful scenery. 
+For each of the most beautiful-places I want you to embed links to pictures of each place. For instance Banff National Park should show me several pictures of it's beautiful scenery. 

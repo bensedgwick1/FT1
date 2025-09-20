@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget-Friendly Destinations | World Explorer</title>
+    <meta name="description" content="Discover amazing destinations where your US dollar goes the furthest">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <style>
+        .money-bg {
+            background: linear-gradient(135deg, #00c6ff 0%, #0072ff 100%);
+        }
+        .destination-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        .destination-image {
+            height: 200px;
+            width: 100%;
+            object-fit: cover;
+            border-radius: 8px 8px 0 0;
+        }
+        .value-highlight {
+            color: #00a800;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body class="min-h-screen bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <i data-feather="dollar-sign" class="text-blue-600 mr-2"></i>
+                    <span class="text-xl font-semibold text-gray-900">Budget Explorer</span>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <a href="index.html" class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">Home</a>
+                    <a href="beautiful-places.html" class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">Beautiful Places</a>
+                    <a href="budget-destinations.html" class="text-blue-600 px-3 py-2 rounded-md text-sm font-medium">Budget Destinations</a>
+                    <a href="kids-songs.html" class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">Kids Songs</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="money-bg text-white py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-4xl md:text-6xl font-bold mb-6" data-aos="fade-up">Top Budget-Friendly Destinations</h1>
+            <p class="text-xl md:text-2xl mb-8 max-w-3xl mx-auto" data-aos="fade-up" data-aos-delay="100">
+                Amazing places where your US dollar has exceptional purchasing power
+            </p>
+            <a href="#destinations" class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-blue-700 bg-white hover:bg-gray-100 transition duration-300" data-aos="fade-up" data-aos-delay="200">
+                View Destinations
+                <i data-feather="arrow-down" class="ml-2"></i>
+            </a>
+        </div>
+    </div>
+
+    <!-- Destinations Section -->
+    <div id="destinations" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-900" data-aos="fade-up">Stretch Your Dollar Further</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Destination 1: Vietnam -->
+                <div class="destination-card bg-white rounded-lg shadow-md overflow-hidden transition duration-300" data-aos="fade-up">
+                    <img src="http://static.photos/travel/640x360/11" alt="Vietnam" class="destination-image">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">1. Vietnam</h3>
+                        <p class="text-gray-600 mb-2"><span class="font-medium">Value Rating:</span> <span class="value-highlight">★★★★★</span></p>
+                        <p class="text-gray-600 mb-2">$1 USD ≈ 24,000 VND</p>
+                        <p class="text-gray-600">Street food meals for $1-2, luxury hotels from $50/night</p>
+                    </div>
+                </div>
+
+                <!-- Destination 2: Indonesia -->
+                <div class="destination-card bg-white rounded-lg shadow-md overflow-hidden transition duration-300" data-aos="fade-up" data-aos-delay="100">
+                    <img src="http://static.photos/travel/640x360/12" alt="Indonesia" class="destination-image">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">2. Indonesia (Bali)</h3>
+                        <p class="text-gray-600 mb-2"><span class="font-medium">Value Rating:</span> <span class="value-highlight">★★★★★</span></p>
+                        <p class="text-gray-600 mb-2">$1 USD ≈ 15,000 IDR</p>
+                        <p class="text-gray-600">Private villas from $30/night, luxury massages for $15</p>
+                    </div>
+                </div>
+
+                <!-- Destination 3: Mexico -->
+                <div class="destination-card bg-white rounded-lg shadow-md overflow-hidden transition duration-300" data-aos="fade-up" data-aos-delay="200">
+                    <img src="http://static.photos/travel/640x360/13" alt="Mexico" class="destination-image">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">3. Mexico</h3>
+                        <p class="text-gray-600 mb-2"><span class="font-medium">Value Rating:</span> <span class="value-highlight">★★★★☆</span></p>
+                        <p class="text-gray-600 mb-2">$1 USD ≈ 17 MXN</p>
+                        <p class="text-gray-600">Beachfront hotels from $50/night, tacos for $0.50 each</p>
+                    </div>
+                </div>
+
+                <!-- Destination 4: Thailand -->
+                <div class="destination-card bg-white rounded-lg shadow-md overflow-hidden transition duration-300" data-aos="fade-up">
+                    <img src="http://static.photos/travel/640x360/14" alt="Thailand" class="destination-image">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">4. Thailand</h3>
+                        <p class="text-gray-600 mb-2"><span class="font-medium">Value Rating:</span> <span class="value-highlight">★★★★★</span></p>
+                        <p class="text-gray-600 mb-2">$1 USD ≈ 35 THB</p>
+                        <p class="text-gray-600">Massages from $10, luxury condos from $500/month</p>
+                    </div>
+                </div>
+
+                <!-- Destination 5: Colombia -->
+                <div class="destination-card bg-white rounded-lg shadow-md overflow-hidden transition duration-300" data-aos="fade-up" data-aos-delay="100">
+                    <img src="http://static.photos/travel/640x360/15" alt="Colombia" class="destination-image">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">5. Colombia</h3>
+                        <p class="text-gray-600 mb-2"><span class="font-medium">Value Rating:</span> <span class="value-highlight">★★★★☆</span></p>
+                        <p class="text-gray-600 mb-2">$1 USD ≈ 3,900 COP</p>
+                        <p class="text-gray-600">City center apartments from $400/month, meals for $3-5</p>
+                    </div>
+                </div>
+
+                <!-- Destination 6: Portugal -->
+                <div class="destination-card bg-white rounded-lg shadow-md overflow-hidden transition duration-300" data-aos="fade-up" data-aos-delay="200">
+                    <img src="http://static.photos/travel/640x360/16" alt="Portugal" class="destination-image">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">6. Portugal</h3>
+                        <p class="text-gray-600 mb-2"><span class="font-medium">Value Rating:</span> <span class="value-highlight">★★★☆☆</span></p>
+                        <p class="text-gray-600 mb-2">$1 USD ≈ 0.92 EUR</p>
+                        <p class="text-gray-600">Coastal towns with $800/month rents, wine for $2/glass</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Budget Tips Section -->
+    <div class="py-16 bg-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-3xl mx-auto">
+                <h2 class="text-3xl font-bold mb-8 text-gray-900 text-center" data-aos="fade-up">Maximizing Your Travel Budget</h2>
+                
+                <div class="space-y-6">
+                    <div class="bg-white p-6 rounded-lg shadow-sm" data-aos="fade-up">
+                        <h3 class="text-xl font-semibold mb-3 text-gray-900">Travel During Shoulder Season</h3>
+                        <p class="text-gray-600">Avoid peak tourist times to get 30-50% discounts on accommodations and activities.</p>
+                    </div>
+                    
+                    <div class="bg-white p-6 rounded-lg shadow-sm" data-aos="fade-up" data-aos-delay="100">
+                        <h3 class="text-xl font-semibold mb-3 text-gray-900">Eat Like a Local</h3>
+                        <p class="text-gray-600">Street food and local restaurants often offer the best value and most authentic experiences.</p>
+                    </div>
+                    
+                    <div class="bg-white p-6 rounded-lg shadow-sm" data-aos="fade-up" data-aos-delay="200">
+                        <h3 class="text-xl font-semibold mb-3 text-gray-900">Use Local Transportation</h3>
+                        <p class="text-gray-600">Buses, trains, and ride-sharing apps are typically much cheaper than taxis or rental cars.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Budget Explorer</h3>
+                    <p class="text-gray-400">Helping travelers find destinations where their money goes furthest.</p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="text-gray-400 hover:text-white transition">Home</a></li>
+                        <li><a href="beautiful-places.html" class="text-gray-400 hover:text-white transition">Beautiful Places</a></li>
+                        <li><a href="budget-destinations.html" class="text-gray-400 hover:text-white transition">Budget Destinations</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Connect</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition"><i data-feather="twitter"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white transition"><i data-feather="facebook"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white transition"><i data-feather="instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
+                <p>© <script>document.write(new Date().getFullYear())</script> Budget Explorer. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>AOS.init();</script>
+    <script>feather.replace();</script>
+</body>
+</html>
