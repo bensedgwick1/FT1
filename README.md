@@ -1,10 +1,12 @@
 ---
-title: Top 10 Countries By Population
-emoji: 🐢
+title: top-10-countries-by-population
+emoji: 🐳
 colorFrom: red
-colorTo: indigo
+colorTo: pink
 sdk: static
 pinned: false
+tags:
+  - deepsite
 ---
 
 Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference

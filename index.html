@@ -1,19 +1,234 @@
-<!doctype html>
-<html>
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width" />
-		<title>My static Space</title>
-		<link rel="stylesheet" href="style.css" />
-	</head>
-	<body>
-		<div class="card">
-			<h1>Welcome to your static Space!</h1>
-			<p>You can modify this app directly by editing <i>index.html</i> in the Files and versions tab.</p>
-			<p>
-				Also don't forget to check the
-				<a href="https://huggingface.co/docs/hub/spaces" target="_blank">Spaces documentation</a>.
-			</p>
-		</div>
-	</body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top 10 Countries by Population</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <style>
+        .globe-bg {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+        }
+        .country-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        .flag-icon {
+            width: 40px;
+            height: 25px;
+            object-fit: cover;
+            border-radius: 2px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body class="min-h-screen bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <i data-feather="globe" class="text-blue-600 mr-2"></i>
+                    <span class="text-xl font-semibold text-gray-900">World Population</span>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <a href="#" class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">Home</a>
+                    <a href="#" class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">About</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="globe-bg text-white py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-4xl md:text-6xl font-bold mb-6" data-aos="fade-up">Top 10 Countries by Population</h1>
+            <p class="text-xl md:text-2xl mb-8 max-w-3xl mx-auto" data-aos="fade-up" data-aos-delay="100">
+                Explore the most populous nations on Earth and their demographic statistics
+            </p>
+            <a href="#countries" class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-blue-700 bg-white hover:bg-gray-100 transition duration-300" data-aos="fade-up" data-aos-delay="200">
+                View Countries
+                <i data-feather="arrow-down" class="ml-2"></i>
+            </a>
+        </div>
+    </div>
+
+    <!-- Countries Section -->
+    <div id="countries" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-900" data-aos="fade-up">Population Rankings</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Country 1: China -->
+                <div class="country-card bg-white rounded-lg shadow-md overflow-hidden transition duration-300" data-aos="fade-up">
+                    <div class="p-6">
+                        <div class="flex items-center mb-4">
+                            <img src="https://flagcdn.com/w80/in.png" alt="India Flag" class="flag-icon mr-3">
+                            <h3 class="text-xl font-semibold text-gray-900">1. India</h3>
+                        </div>
+                        <p class="text-gray-600 mb-2"><span class="font-medium">Population:</span> 1,428,627,663</p>
+                        <p class="text-gray-600 mb-2"><span class="font-medium">World Share:</span> 17.72%</p>
+                        <p class="text-gray-600"><span class="font-medium">Land Area:</span> 9,388,211 km²</p>
+                    </div>
+                </div>
+
+                <!-- Country 2: India -->
+                <div class="country-card bg-white rounded-lg shadow-md overflow-hidden transition duration-300" data-aos="fade-up" data-aos-delay="100">
+                    <div class="p-6">
+                        <div class="flex items-center mb-4">
+                            <img src="https://flagcdn.com/w80/cn.png" alt="China Flag" class="flag-icon mr-3">
+                            <h3 class="text-xl font-semibold text-gray-900">2. China</h3>
+                        </div>
+                        <p class="text-gray-600 mb-2"><span class="font-medium">Population:</span> 1,425,671,352</p>
+                        <p class="text-gray-600 mb-2"><span class="font-medium">World Share:</span> 17.77%</p>
+                        <p class="text-gray-600"><span class="font-medium">Land Area:</span> 2,973,190 km²</p>
+                    </div>
+                </div>
+
+                <!-- Country 3: United States -->
+                <div class="country-card bg-white rounded-lg shadow-md overflow-hidden transition duration-300" data-aos="fade-up" data-aos-delay="200">
+                    <div class="p-6">
+                        <div class="flex items-center mb-4">
+                            <img src="https://flagcdn.com/w80/us.png" alt="USA Flag" class="flag-icon mr-3">
+                            <h3 class="text-xl font-semibold text-gray-900">3. United States</h3>
+                        </div>
+                        <p class="text-gray-600 mb-2"><span class="font-medium">Population:</span> 339,996,563</p>
+                        <p class="text-gray-600 mb-2"><span class="font-medium">World Share:</span> 4.23%</p>
+                        <p class="text-gray-600"><span class="font-medium">Land Area:</span> 9,147,420 km²</p>
+                    </div>
+                </div>
+
+                <!-- Country 4: Indonesia -->
+                <div class="country-card bg-white rounded-lg shadow-md overflow-hidden transition duration-300" data-aos="fade-up">
+                    <div class="p-6">
+                        <div class="flex items-center mb-4">
+                            <img src="https://flagcdn.com/w80/id.png" alt="Indonesia Flag" class="flag-icon mr-3">
+                            <h3 class="text-xl font-semibold text-gray-900">4. Indonesia</h3>
+                        </div>
+                        <p class="text-gray-600 mb-2"><span class="font-medium">Population:</span> 277,534,122</p>
+                        <p class="text-gray-600 mb-2"><span class="font-medium">World Share:</span> 3.45%</p>
+                        <p class="text-gray-600"><span class="font-medium">Land Area:</span> 1,811,570 km²</p>
+                    </div>
+                </div>
+
+                <!-- Country 5: Pakistan -->
+                <div class="country-card bg-white rounded-lg shadow-md overflow-hidden transition duration-300" data-aos="fade-up" data-aos-delay="100">
+                    <div class="p-6">
+                        <div class="flex items-center mb-4">
+                            <img src="https://flagcdn.com/w80/pk.png" alt="Pakistan Flag" class="flag-icon mr-3">
+                            <h3 class="text-xl font-semibold text-gray-900">5. Pakistan</h3>
+                        </div>
+                        <p class="text-gray-600 mb-2"><span class="font-medium">Population:</span> 240,485,658</p>
+                        <p class="text-gray-600 mb-2"><span class="font-medium">World Share:</span> 2.99%</p>
+                        <p class="text-gray-600"><span class="font-medium">Land Area:</span> 770,880 km²</p>
+                    </div>
+                </div>
+
+                <!-- Country 6: Brazil -->
+                <div class="country-card bg-white rounded-lg shadow-md overflow-hidden transition duration-300" data-aos="fade-up" data-aos-delay="200">
+                    <div class="p-6">
+                        <div class="flex items-center mb-4">
+                            <img src="https://flagcdn.com/w80/br.png" alt="Brazil Flag" class="flag-icon mr-3">
+                            <h3 class="text-xl font-semibold text-gray-900">6. Brazil</h3>
+                        </div>
+                        <p class="text-gray-600 mb-2"><span class="font-medium">Population:</span> 216,422,446</p>
+                        <p class="text-gray-600 mb-2"><span class="font-medium">World Share:</span> 2.69%</p>
+                        <p class="text-gray-600"><span class="font-medium">Land Area:</span> 8,358,140 km²</p>
+                    </div>
+                </div>
+
+                <!-- Country 7: Nigeria -->
+                <div class="country-card bg-white rounded-lg shadow-md overflow-hidden transition duration-300" data-aos="fade-up">
+                    <div class="p-6">
+                        <div class="flex items-center mb-4">
+                            <img src="https://flagcdn.com/w80/ng.png" alt="Nigeria Flag" class="flag-icon mr-3">
+                            <h3 class="text-xl font-semibold text-gray-900">7. Nigeria</h3>
+                        </div>
+                        <p class="text-gray-600 mb-2"><span class="font-medium">Population:</span> 223,804,632</p>
+                        <p class="text-gray-600 mb-2"><span class="font-medium">World Share:</span> 2.78%</p>
+                        <p class="text-gray-600"><span class="font-medium">Land Area:</span> 910,770 km²</p>
+                    </div>
+                </div>
+
+                <!-- Country 8: Bangladesh -->
+                <div class="country-card bg-white rounded-lg shadow-md overflow-hidden transition duration-300" data-aos="fade-up" data-aos-delay="100">
+                    <div class="p-6">
+                        <div class="flex items-center mb-4">
+                            <img src="https://flagcdn.com/w80/bd.png" alt="Bangladesh Flag" class="flag-icon mr-3">
+                            <h3 class="text-xl font-semibold text-gray-900">8. Bangladesh</h3>
+                        </div>
+                        <p class="text-gray-600 mb-2"><span class="font-medium">Population:</span> 172,954,319</p>
+                        <p class="text-gray-600 mb-2"><span class="font-medium">World Share:</span> 2.15%</p>
+                        <p class="text-gray-600"><span class="font-medium">Land Area:</span> 130,170 km²</p>
+                    </div>
+                </div>
+
+                <!-- Country 9: Russia -->
+                <div class="country-card bg-white rounded-lg shadow-md overflow-hidden transition duration-300" data-aos="fade-up" data-aos-delay="200">
+                    <div class="p-6">
+                        <div class="flex items-center mb-4">
+                            <img src="https://flagcdn.com/w80/ru.png" alt="Russia Flag" class="flag-icon mr-3">
+                            <h3 class="text-xl font-semibold text-gray-900">9. Russia</h3>
+                        </div>
+                        <p class="text-gray-600 mb-2"><span class="font-medium">Population:</span> 144,444,359</p>
+                        <p class="text-gray-600 mb-2"><span class="font-medium">World Share:</span> 1.80%</p>
+                        <p class="text-gray-600"><span class="font-medium">Land Area:</span> 16,376,870 km²</p>
+                    </div>
+                </div>
+
+                <!-- Country 10: Mexico -->
+                <div class="country-card bg-white rounded-lg shadow-md overflow-hidden transition duration-300" data-aos="fade-up">
+                    <div class="p-6">
+                        <div class="flex items-center mb-4">
+                            <img src="https://flagcdn.com/w80/mx.png" alt="Mexico Flag" class="flag-icon mr-3">
+                            <h3 class="text-xl font-semibold text-gray-900">10. Mexico</h3>
+                        </div>
+                        <p class="text-gray-600 mb-2"><span class="font-medium">Population:</span> 128,455,567</p>
+                        <p class="text-gray-600 mb-2"><span class="font-medium">World Share:</span> 1.60%</p>
+                        <p class="text-gray-600"><span class="font-medium">Land Area:</span> 1,943,950 km²</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">World Population</h3>
+                    <p class="text-gray-400">Exploring demographic data and population statistics from around the globe.</p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Home</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">About</a></li>
+                        <li><a href="https://www.worldometers.info/world-population/population-by-country/" class="text-gray-400 hover:text-white transition" target="_blank">Data Source</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Connect</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition"><i data-feather="twitter"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white transition"><i data-feather="facebook"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white transition"><i data-feather="instagram"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white transition"><i data-feather="github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
+                <p>© 2023 World Population. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>AOS.init();</script>
+    <script>feather.replace();</script>
+</body>
 </html>
