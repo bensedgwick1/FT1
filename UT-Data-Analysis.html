@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>State Unemployment Estimates | Unemployment Tracker</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <style>
+        .hover-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 font-sans">
+    <!-- Navigation -->
+    <nav class="bg-blue-600 text-white shadow-lg">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold flex items-center">
+                <i data-feather="map" class="mr-2"></i>
+                <span>State Data Tracker</span>
+            </a>
+            <div class="flex space-x-4">
+                <a href="index.html" class="px-4 py-2 rounded-lg bg-white text-blue-600 font-medium hover:bg-blue-50 transition duration-200">
+                    <i data-feather="home" class="inline mr-1"></i> Back to Home
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-4 py-8">
+        <!-- Header Section -->
+        <section class="mb-12 text-center">
+            <h1 class="text-4xl font-bold text-gray-800 mb-4">State-Level Unemployment Estimates</h1>
+            <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                Estimated breakdown of unemployed graduates by field of study for each state.
+            </p>
+        </section>
+
+        <!-- Methodology & Disclaimer -->
+        <section class="mb-12 bg-blue-50 rounded-xl p-6 border-l-4 border-blue-600">
+            <h2 class="text-2xl font-semibold text-gray-800 mb-4 flex items-center">
+                <i data-feather="info" class="w-7 h-7 text-blue-600 mr-3"></i>Methodology & Important Disclaimer
+            </h2>
+            <p class="text-gray-700 mb-4">
+                <strong>Official data breaking down unemployment by college major <em>per state</em> does not exist publicly.</strong>
+            </p>
+            <p class="text-gray-700">
+                The figures below are <strong>synthesized estimates</strong>. They were calculated by taking the known total number of unemployed people in each state (Column 2) and applying the national average trends. The model assumes that roughly 24.5% of all unemployed people hold a degree, and that the distribution of majors (e.g., 18% IT, 22% Arts) is consistent across all states.
+            </p>
+        </section>
+
+        <!-- State Data Table -->
+        <section class="bg-white rounded-xl shadow-md overflow-hidden">
+            <div class="px-6 py-4 border-b border-gray-200">
+                <h2 class="text-2xl font-semibold text-gray-800">State-by-State Estimated Breakdown</h2>
+            </div>
+            <div class="overflow-x-auto">
+                <table class="min-w-full divide-y divide-gray-200">
+                    <thead class="bg-gray-100">
+                        <tr>
+                            <th class="px-6 py-3 text-left text-xs font-bold text-gray-700 uppercase tracking-wider">State</th>
+                            <th class="px-6 py-3 text-left text-xs font-bold text-gray-700 uppercase tracking-wider">Total Unemployed (Actual)</th>
+                            <th class="px-6 py-3 text-left text-xs font-bold text-blue-700 uppercase tracking-wider bg-blue-50">Est. Unemployed Graduates</th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Est. Arts & Humanities</th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Est. IT & CompSci</th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Est. Business</th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Est. Social Sci.</th>
+                        </tr>
+                    </thead>
+                    <tbody class="bg-white divide-y divide-gray-200" id="stateDataTable">
+                        <!-- State data will be inserted here by JavaScript -->
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8 mt-12">
+        <div class="container mx-auto px-4 text-center text-gray-400">
+            <p>© 2025 Unemployment Trends Tracker. "Total Unemployed" sourced from BLS. All other figures are estimates.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Initialize feather icons
+        feather.replace();
+
+        // CONSTANTS FOR OUR MODEL
+        const TOTAL_US_UNEMPLOYED = 7380000; // Approx 7.4 Million
+        const TOTAL_US_GRADS_UNEMPLOYED = 1810000; // 1.81 Million
+        // The percentage of all unemployed people who hold a degree
+        const GRAD_RATIO = TOTAL_US_GRADS_UNEMPLOYED / TOTAL_US_UNEMPLOYED; 
+        
+        // Field distribution percentages (Derived earlier)
+        const FIELD_RATIOS = {
+            ARTS: 0.22,
+            IT: 0.18,
+            BUSINESS: 0.15,
+            SOCSCI: 0.16
+        };
+
+        // Latest available state unemployment data (Totals are real)
+        const stateData = [
+            { state: 'Alabama', total: 50150 }, { state: 'Alaska', total: 15400 },
+            { state: 'Arizona', total: 125500 }, { state: 'Arkansas', total: 35200 },
+            { state: 'California', total: 975300 }, { state: 'Colorado', total: 92800 },
+            { state: 'Connecticut', total: 65100 }, { state: 'Delaware', total: 20900 },
+            { state: 'Florida', total: 301000 }, { state: 'Georgia', total: 158700 },
+            { state: 'Hawaii', total: 18400 }, { state: 'Idaho', total: 24100 },
+            { state: 'Illinois', total: 301500 }, { state: 'Indiana', total: 109800 },
+            { state: 'Iowa', total: 46200 }, { state: 'Kansas', total: 36100 },
+            { state: 'Kentucky', total: 77900 }, { state: 'Louisiana', total: 70200 },
+            { state: 'Maine', total: 16800 }, { state: 'Maryland', total: 65900 },
+            { state: 'Massachusetts', total: 108300 }, { state: 'Michigan', total: 191400 },
+            { state: 'Minnesota', total: 76500 }, { state: 'Mississippi', total: 38900 },
+            { state: 'Missouri', total: 78100 }, { state: 'Montana', total: 13500 },
+            { state: 'Nebraska', total: 20100 }, { state: 'Nevada', total: 84600 },
+            { state: 'New Hampshire', total: 14200 }, { state: 'New Jersey', total: 219800 },
+            { state: 'New Mexico', total: 32600 }, { state: 'New York', total: 412700 },
+            { state: 'North Carolina', total: 174600 }, { state: 'North Dakota', total: 8100 },
+            { state: 'Ohio', total: 198200 }, { state: 'Oklahoma', total: 51000 },
+            { state: 'Oregon', total: 74900 }, { state: 'Pennsylvania', total: 247800 },
+            { state: 'Rhode Island', total: 16500 }, { state: 'South Carolina', total: 70400 },
+            { state: 'South Dakota', total: 8900 }, { state: 'Tennessee', total: 106900 },
+            { state: 'Texas', total: 596100 }, { state: 'Utah', total: 41800 },
+            { state: 'Vermont', total: 5600 }, { state: 'Virginia', total: 112300 },
+            { state: 'Washington', total: 163200 }, { state: 'West Virginia', total: 27900 },
+            { state: 'Wisconsin', total: 77100 }, { state: 'Wyoming', total: 8400 }
+        ];
+
+        const tableBody = document.getElementById('stateDataTable');
+        stateData.sort((a, b) => a.state.localeCompare(b.state)); // Sort states alphabetically
+        
+        stateData.forEach(item => {
+            // 1. Calculate the Estimated Total Unemployed Graduates for this state
+            //    (State Total Unemployed * National Grad Ratio)
+            const estGradsUnemployed = Math.round(item.total * GRAD_RATIO);
+
+            // 2. Calculate the breakdown based on that estimated grad number
+            const estArts = Math.round(estGradsUnemployed * FIELD_RATIOS.ARTS);
+            const estIT = Math.round(estGradsUnemployed * FIELD_RATIOS.IT);
+            const estBusiness = Math.round(estGradsUnemployed * FIELD_RATIOS.BUSINESS);
+            const estSocSci = Math.round(estGradsUnemployed * FIELD_RATIOS.SOCSCI);
+
+            const row = document.createElement('tr');
+            row.innerHTML = `
+                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">${item.state}</td>
+                <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900 font-semibold">${item.total.toLocaleString()}</td>
+                <td class="px-6 py-4 whitespace-nowrap text-sm text-blue-800 font-semibold bg-blue-50">~ ${estGradsUnemployed.toLocaleString()}</td>
+                <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-600">~ ${estArts.toLocaleString()}</td>
+                <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-600">~ ${estIT.toLocaleString()}</td>
+                <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-600">~ ${estBusiness.toLocaleString()}</td>
+                <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-600">~ ${estSocSci.toLocaleString()}</td>
+            `;
+            tableBody.appendChild(row);
+        });
+    </script>
+</body>
+</html>
