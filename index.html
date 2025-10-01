@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>World Population Explorer | Top 10 Countries</title>
-    <meta name="description" content="Explore the top 10 most populous countries in the world with detailed demographic statistics">
+    <meta name="description" content="Explore the top 10 most populous countries in the world with detailed demographic and economic statistics">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -13,6 +13,10 @@
     <style>
         .globe-bg {
             background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+        }
+        .country-card {
+            display: block; /* Make the entire card a block-level link */
+            transition: transform 0.3s, box-shadow 0.3s;
         }
         .country-card:hover {
             transform: translateY(-5px);
@@ -58,7 +62,7 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h1 class="text-4xl md:text-6xl font-bold mb-6" data-aos="fade-up">Top 10 Countries by Population</h1>
             <p class="text-xl md:text-2xl mb-8 max-w-3xl mx-auto" data-aos="fade-up" data-aos-delay="100">
-                Explore the most populous nations on Earth and their demographic statistics
+                Explore the most populous nations on Earth and their demographic and economic statistics
             </p>
             <a href="#countries" class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-blue-700 bg-white hover:bg-gray-100 transition duration-300" data-aos="fade-up" data-aos-delay="200">
                 View Countries
@@ -70,138 +74,149 @@
     <!-- Countries Section -->
     <div id="countries" class="py-16 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-3xl font-bold text-center mb-12 text-gray-900" data-aos="fade-up">Population Rankings</h2>
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-900" data-aos="fade-up">Population & Economic Rankings</h2>
             
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Country 1: China -->
-                <div class="country-card bg-white rounded-lg shadow-md overflow-hidden transition duration-300" data-aos="fade-up">
+                
+                <!-- Country 1: India -->
+                <a href="https://www.worldometers.info/world-population/india-population/" target="_blank" class="country-card bg-white rounded-lg shadow-md overflow-hidden" data-aos="fade-up">
                     <div class="p-6">
                         <div class="flex items-center mb-4">
                             <img src="https://flagcdn.com/w80/in.png" alt="India Flag" class="flag-icon mr-3">
                             <h3 class="text-xl font-semibold text-gray-900">1. India</h3>
                         </div>
                         <p class="text-gray-600 mb-2"><span class="font-medium">Population:</span> 1,428,627,663</p>
-                        <p class="text-gray-600 mb-2"><span class="font-medium">World Share:</span> 17.72%</p>
-                        <p class="text-gray-600"><span class="font-medium">Land Area:</span> 9,388,211 km²</p>
+                        <p class="text-gray-600 mb-2"><span class="font-medium">World Share:</span> 17.7%</p>
+                        <p class="text-gray-600 mb-2"><span class="font-medium">GDP (Nominal):</span> $3.73 Trillion</p>
+                        <p class="text-gray-600"><span class="font-medium">GDP (PPP):</span> $13.03 Trillion</p>
                     </div>
-                </div>
+                </a>
 
-                <!-- Country 2: India -->
-                <div class="country-card bg-white rounded-lg shadow-md overflow-hidden transition duration-300" data-aos="fade-up" data-aos-delay="100">
+                <!-- Country 2: China -->
+                <a href="https://www.worldometers.info/world-population/china-population/" target="_blank" class="country-card bg-white rounded-lg shadow-md overflow-hidden" data-aos="fade-up" data-aos-delay="100">
                     <div class="p-6">
                         <div class="flex items-center mb-4">
                             <img src="https://flagcdn.com/w80/cn.png" alt="China Flag" class="flag-icon mr-3">
                             <h3 class="text-xl font-semibold text-gray-900">2. China</h3>
                         </div>
                         <p class="text-gray-600 mb-2"><span class="font-medium">Population:</span> 1,425,671,352</p>
-                        <p class="text-gray-600 mb-2"><span class="font-medium">World Share:</span> 17.77%</p>
-                        <p class="text-gray-600"><span class="font-medium">Land Area:</span> 2,973,190 km²</p>
+                        <p class="text-gray-600 mb-2"><span class="font-medium">World Share:</span> 17.7%</p>
+                        <p class="text-gray-600 mb-2"><span class="font-medium">GDP (Nominal):</span> $19.37 Trillion</p>
+                        <p class="text-gray-600"><span class="font-medium">GDP (PPP):</span> $33.01 Trillion</p>
                     </div>
-                </div>
+                </a>
 
                 <!-- Country 3: United States -->
-                <div class="country-card bg-white rounded-lg shadow-md overflow-hidden transition duration-300" data-aos="fade-up" data-aos-delay="200">
+                <a href="https://www.worldometers.info/world-population/us-population/" target="_blank" class="country-card bg-white rounded-lg shadow-md overflow-hidden" data-aos="fade-up" data-aos-delay="200">
                     <div class="p-6">
                         <div class="flex items-center mb-4">
                             <img src="https://flagcdn.com/w80/us.png" alt="USA Flag" class="flag-icon mr-3">
                             <h3 class="text-xl font-semibold text-gray-900">3. United States</h3>
                         </div>
                         <p class="text-gray-600 mb-2"><span class="font-medium">Population:</span> 339,996,563</p>
-                        <p class="text-gray-600 mb-2"><span class="font-medium">World Share:</span> 4.23%</p>
-                        <p class="text-gray-600"><span class="font-medium">Land Area:</span> 9,147,420 km²</p>
+                        <p class="text-gray-600 mb-2"><span class="font-medium">World Share:</span> 4.2%</p>
+                        <p class="text-gray-600 mb-2"><span class="font-medium">GDP (Nominal):</span> $26.85 Trillion</p>
+                        <p class="text-gray-600"><span class="font-medium">GDP (PPP):</span> $26.85 Trillion</p>
                     </div>
-                </div>
+                </a>
 
                 <!-- Country 4: Indonesia -->
-                <div class="country-card bg-white rounded-lg shadow-md overflow-hidden transition duration-300" data-aos="fade-up">
+                <a href="https://www.worldometers.info/world-population/indonesia-population/" target="_blank" class="country-card bg-white rounded-lg shadow-md overflow-hidden" data-aos="fade-up">
                     <div class="p-6">
                         <div class="flex items-center mb-4">
                             <img src="https://flagcdn.com/w80/id.png" alt="Indonesia Flag" class="flag-icon mr-3">
                             <h3 class="text-xl font-semibold text-gray-900">4. Indonesia</h3>
                         </div>
                         <p class="text-gray-600 mb-2"><span class="font-medium">Population:</span> 277,534,122</p>
-                        <p class="text-gray-600 mb-2"><span class="font-medium">World Share:</span> 3.45%</p>
-                        <p class="text-gray-600"><span class="font-medium">Land Area:</span> 1,811,570 km²</p>
+                        <p class="text-gray-600 mb-2"><span class="font-medium">World Share:</span> 3.4%</p>
+                        <p class="text-gray-600 mb-2"><span class="font-medium">GDP (Nominal):</span> $1.39 Trillion</p>
+                        <p class="text-gray-600"><span class="font-medium">GDP (PPP):</span> $4.39 Trillion</p>
                     </div>
-                </div>
+                </a>
 
                 <!-- Country 5: Pakistan -->
-                <div class="country-card bg-white rounded-lg shadow-md overflow-hidden transition duration-300" data-aos="fade-up" data-aos-delay="100">
+                <a href="https://www.worldometers.info/world-population/pakistan-population/" target="_blank" class="country-card bg-white rounded-lg shadow-md overflow-hidden" data-aos="fade-up" data-aos-delay="100">
                     <div class="p-6">
                         <div class="flex items-center mb-4">
                             <img src="https://flagcdn.com/w80/pk.png" alt="Pakistan Flag" class="flag-icon mr-3">
                             <h3 class="text-xl font-semibold text-gray-900">5. Pakistan</h3>
                         </div>
                         <p class="text-gray-600 mb-2"><span class="font-medium">Population:</span> 240,485,658</p>
-                        <p class="text-gray-600 mb-2"><span class="font-medium">World Share:</span> 2.99%</p>
-                        <p class="text-gray-600"><span class="font-medium">Land Area:</span> 770,880 km²</p>
+                        <p class="text-gray-600 mb-2"><span class="font-medium">World Share:</span> 3.0%</p>
+                        <p class="text-gray-600 mb-2"><span class="font-medium">GDP (Nominal):</span> $374 Billion</p>
+                        <p class="text-gray-600"><span class="font-medium">GDP (PPP):</span> $1.51 Trillion</p>
                     </div>
-                </div>
+                </a>
 
-                <!-- Country 6: Brazil -->
-                <div class="country-card bg-white rounded-lg shadow-md overflow-hidden transition duration-300" data-aos="fade-up" data-aos-delay="200">
-                    <div class="p-6">
-                        <div class="flex items-center mb-4">
-                            <img src="https://flagcdn.com/w80/br.png" alt="Brazil Flag" class="flag-icon mr-3">
-                            <h3 class="text-xl font-semibold text-gray-900">6. Brazil</h3>
-                        </div>
-                        <p class="text-gray-600 mb-2"><span class="font-medium">Population:</span> 216,422,446</p>
-                        <p class="text-gray-600 mb-2"><span class="font-medium">World Share:</span> 2.69%</p>
-                        <p class="text-gray-600"><span class="font-medium">Land Area:</span> 8,358,140 km²</p>
-                    </div>
-                </div>
-
-                <!-- Country 7: Nigeria -->
-                <div class="country-card bg-white rounded-lg shadow-md overflow-hidden transition duration-300" data-aos="fade-up">
+                <!-- Country 6: Nigeria -->
+                <a href="https://www.worldometers.info/world-population/nigeria-population/" target="_blank" class="country-card bg-white rounded-lg shadow-md overflow-hidden" data-aos="fade-up" data-aos-delay="200">
                     <div class="p-6">
                         <div class="flex items-center mb-4">
                             <img src="https://flagcdn.com/w80/ng.png" alt="Nigeria Flag" class="flag-icon mr-3">
-                            <h3 class="text-xl font-semibold text-gray-900">7. Nigeria</h3>
+                            <h3 class="text-xl font-semibold text-gray-900">6. Nigeria</h3>
                         </div>
                         <p class="text-gray-600 mb-2"><span class="font-medium">Population:</span> 223,804,632</p>
-                        <p class="text-gray-600 mb-2"><span class="font-medium">World Share:</span> 2.78%</p>
-                        <p class="text-gray-600"><span class="font-medium">Land Area:</span> 910,770 km²</p>
+                        <p class="text-gray-600 mb-2"><span class="font-medium">World Share:</span> 2.8%</p>
+                        <p class="text-gray-600 mb-2"><span class="font-medium">GDP (Nominal):</span> $506 Billion</p>
+                        <p class="text-gray-600"><span class="font-medium">GDP (PPP):</span> $1.26 Trillion</p>
                     </div>
-                </div>
+                </a>
+
+                <!-- Country 7: Brazil -->
+                <a href="https://www.worldometers.info/world-population/brazil-population/" target="_blank" class="country-card bg-white rounded-lg shadow-md overflow-hidden" data-aos="fade-up">
+                    <div class="p-6">
+                        <div class="flex items-center mb-4">
+                            <img src="https://flagcdn.com/w80/br.png" alt="Brazil Flag" class="flag-icon mr-3">
+                            <h3 class="text-xl font-semibold text-gray-900">7. Brazil</h3>
+                        </div>
+                        <p class="text-gray-600 mb-2"><span class="font-medium">Population:</span> 216,422,446</p>
+                        <p class="text-gray-600 mb-2"><span class="font-medium">World Share:</span> 2.7%</p>
+                        <p class="text-gray-600 mb-2"><span class="font-medium">GDP (Nominal):</span> $2.08 Trillion</p>
+                        <p class="text-gray-600"><span class="font-medium">GDP (PPP):</span> $3.89 Trillion</p>
+                    </div>
+                </a>
 
                 <!-- Country 8: Bangladesh -->
-                <div class="country-card bg-white rounded-lg shadow-md overflow-hidden transition duration-300" data-aos="fade-up" data-aos-delay="100">
+                <a href="https://www.worldometers.info/world-population/bangladesh-population/" target="_blank" class="country-card bg-white rounded-lg shadow-md overflow-hidden" data-aos="fade-up" data-aos-delay="100">
                     <div class="p-6">
                         <div class="flex items-center mb-4">
                             <img src="https://flagcdn.com/w80/bd.png" alt="Bangladesh Flag" class="flag-icon mr-3">
                             <h3 class="text-xl font-semibold text-gray-900">8. Bangladesh</h3>
                         </div>
                         <p class="text-gray-600 mb-2"><span class="font-medium">Population:</span> 172,954,319</p>
-                        <p class="text-gray-600 mb-2"><span class="font-medium">World Share:</span> 2.15%</p>
-                        <p class="text-gray-600"><span class="font-medium">Land Area:</span> 130,170 km²</p>
+                        <p class="text-gray-600 mb-2"><span class="font-medium">World Share:</span> 2.1%</p>
+                        <p class="text-gray-600 mb-2"><span class="font-medium">GDP (Nominal):</span> $446 Billion</p>
+                        <p class="text-gray-600"><span class="font-medium">GDP (PPP):</span> $1.47 Trillion</p>
                     </div>
-                </div>
+                </a>
 
                 <!-- Country 9: Russia -->
-                <div class="country-card bg-white rounded-lg shadow-md overflow-hidden transition duration-300" data-aos="fade-up" data-aos-delay="200">
+                <a href="https://www.worldometers.info/world-population/russia-population/" target="_blank" class="country-card bg-white rounded-lg shadow-md overflow-hidden" data-aos="fade-up" data-aos-delay="200">
                     <div class="p-6">
                         <div class="flex items-center mb-4">
                             <img src="https://flagcdn.com/w80/ru.png" alt="Russia Flag" class="flag-icon mr-3">
                             <h3 class="text-xl font-semibold text-gray-900">9. Russia</h3>
                         </div>
                         <p class="text-gray-600 mb-2"><span class="font-medium">Population:</span> 144,444,359</p>
-                        <p class="text-gray-600 mb-2"><span class="font-medium">World Share:</span> 1.80%</p>
-                        <p class="text-gray-600"><span class="font-medium">Land Area:</span> 16,376,870 km²</p>
+                        <p class="text-gray-600 mb-2"><span class="font-medium">World Share:</span> 1.8%</p>
+                        <p class="text-gray-600 mb-2"><span class="font-medium">GDP (Nominal):</span> $2.13 Trillion</p>
+                        <p class="text-gray-600"><span class="font-medium">GDP (PPP):</span> $5.51 Trillion</p>
                     </div>
-                </div>
+                </a>
 
                 <!-- Country 10: Mexico -->
-                <div class="country-card bg-white rounded-lg shadow-md overflow-hidden transition duration-300" data-aos="fade-up">
+                <a href="https://www.worldometers.info/world-population/mexico-population/" target="_blank" class="country-card bg-white rounded-lg shadow-md overflow-hidden" data-aos="fade-up">
                     <div class="p-6">
                         <div class="flex items-center mb-4">
                             <img src="https://flagcdn.com/w80/mx.png" alt="Mexico Flag" class="flag-icon mr-3">
                             <h3 class="text-xl font-semibold text-gray-900">10. Mexico</h3>
                         </div>
                         <p class="text-gray-600 mb-2"><span class="font-medium">Population:</span> 128,455,567</p>
-                        <p class="text-gray-600 mb-2"><span class="font-medium">World Share:</span> 1.60%</p>
-                        <p class="text-gray-600"><span class="font-medium">Land Area:</span> 1,943,950 km²</p>
+                        <p class="text-gray-600 mb-2"><span class="font-medium">World Share:</span> 1.6%</p>
+                        <p class="text-gray-600 mb-2"><span class="font-medium">GDP (Nominal):</span> $1.66 Trillion</p>
+                        <p class="text-gray-600"><span class="font-medium">GDP (PPP):</span> $2.99 Trillion</p>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
     </div>
