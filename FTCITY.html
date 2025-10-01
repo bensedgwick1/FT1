@@ -121,10 +121,9 @@
             "New York": { statePopulation: 19571000, cities: [{ name: 'New York City', population: 8335897, income: 76000 }, { name: 'Buffalo', population: 276807, income: 45000 }, { name: 'Rochester', population: 210636, income: 42000 }, { name: 'Yonkers', population: 209527, income: 77000 }, { name: 'Syracuse', population: 146103, income: 44000 }], stateMedianIncome: 75000 }
         };
         
-        // --- UNEMPLOYMENT DATA (Unchanged) ---
+        // --- UNEMPLOYMENT DATA ---
         const cityData = {
-            // ... (Full 50-state unemployment data from previous step)
-             "Alabama": { stateTotal: 50150, cities: [{ name: 'Huntsville', total: 5200 }, { name: 'Birmingham', total: 6000 }, { name: 'Montgomery', total: 3900 }, { name: 'Mobile', total: 4100 }, { name: 'Tuscaloosa', total: 2500 }] },
+            "Alabama": { stateTotal: 50150, cities: [{ name: 'Huntsville', total: 5200 }, { name: 'Birmingham', total: 6000 }, { name: 'Montgomery', total: 3900 }, { name: 'Mobile', total: 4100 }, { name: 'Tuscaloosa', total: 2500 }] },
             "Alaska": { stateTotal: 15400, cities: [{ name: 'Anchorage', total: 8500 }, { name: 'Fairbanks', total: 1500 }, { name: 'Juneau', total: 1000 }, { name: 'Wasilla', total: 400 }, { name: 'Sitka', total: 200 }] },
             "Arizona": { stateTotal: 125500, cities: [{ name: 'Phoenix', total: 40000 }, { name: 'Tucson', total: 15000 }, { name: 'Mesa', total: 12000 }, { name: 'Chandler', total: 6000 }, { name: 'Scottsdale', total: 5000 }] },
             "Arkansas": { stateTotal: 35200, cities: [{ name: 'Little Rock', total: 8000 }, { name: 'Fayetteville', total: 3000 }, { name: 'Fort Smith', total: 3500 }, { name: 'Springdale', total: 2500 }, { name: 'Jonesboro', total: 2000 }] },
@@ -184,7 +183,6 @@
             let currentModel = MODELS[stateName] || MODELS["National"];
             let modelNote = '', summaryHTML = '';
             
-            // --- MODEL SELECTION & SUMMARY INJECTION ---
             if (fineTunedStates.includes(stateName)) {
                 const currentSummaryData = summaryData[stateName];
                 
@@ -211,6 +209,23 @@
                     </div>`;
                 }).join('');
                 
+                // --- NEW: Calculate State Totals ---
+                const totalStateUnemployed = data.stateTotal;
+                const totalEstWorkingPop = Math.round(currentSummaryData.statePopulation * currentModel.WORKING_AGE_RATIO);
+                const unemploymentPercentage = ((totalStateUnemployed / totalEstWorkingPop) * 100).toFixed(1);
+
+                const totalsHTML = `
+                <div class="mt-6 pt-4 border-t border-gray-200 grid grid-cols-1 md:grid-cols-2 gap-4 text-center">
+                    <div class="p-4 bg-blue-50 rounded-lg">
+                        <p class="text-sm font-semibold text-blue-800 uppercase tracking-wider">Total State Unemployed</p>
+                        <p class="text-3xl font-bold text-gray-900">${totalStateUnemployed.toLocaleString()}</p>
+                    </div>
+                    <div class="p-4 bg-red-50 rounded-lg">
+                        <p class="text-sm font-semibold text-red-800 uppercase tracking-wider">Rate (vs. Est. Working Pop.)</p>
+                        <p class="text-3xl font-bold text-gray-900">${unemploymentPercentage}%</p>
+                    </div>
+                </div>`;
+                
                 summaryHTML = `
                 <section class="mb-8">
                     <div class="p-6 bg-white rounded-xl shadow-md">
@@ -223,8 +238,10 @@
                         <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
                             ${citySummaryHtml}
                         </div>
+                        ${totalsHTML}
                     </div>
                 </section>`;
+
                 modelNote = `<div class="p-2 bg-blue-100 text-blue-800 text-xs text-center rounded-b-lg">Using Fine-Tuned Model for ${stateName}</div>`;
             }
 
