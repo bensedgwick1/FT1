@@ -80,46 +80,34 @@
                 
                 <!-- Dynamically generated country cards will be placed here -->
                 <script>
-                    const countries = [
-                        { rank: 1, name: 'India', flag: 'in', population: '1,441,719,852', share: '17.9%', gdp_nominal: '$3.73 Trillion', gdp_ppp: '$13.03 Trillion', link: 'india-population' },
-                        { rank: 2, name: 'China', flag: 'cn', population: '1,425,178,782', share: '17.7%', gdp_nominal: '$19.37 Trillion', gdp_ppp: '$33.01 Trillion', link: 'china-population' },
-                        { rank: 3, name: 'United States', flag: 'us', population: '341,814,420', share: '4.2%', gdp_nominal: '$26.85 Trillion', gdp_ppp: '$26.85 Trillion', link: 'us-population' },
-                        { rank: 4, name: 'Indonesia', flag: 'id', population: '279,798,049', share: '3.5%', gdp_nominal: '$1.39 Trillion', gdp_ppp: '$4.39 Trillion', link: 'indonesia-population' },
-                        { rank: 5, name: 'Pakistan', flag: 'pk', population: '245,209,815', share: '3.0%', gdp_nominal: '$374 Billion', gdp_ppp: '$1.51 Trillion', link: 'pakistan-population' },
-                        { rank: 6, name: 'Nigeria', flag: 'ng', population: '229,152,217', share: '2.8%', gdp_nominal: '$506 Billion', gdp_ppp: '$1.26 Trillion', link: 'nigeria-population' },
-                        { rank: 7, name: 'Brazil', flag: 'br', population: '217,637,297', share: '2.7%', gdp_nominal: '$2.08 Trillion', gdp_ppp: '$3.89 Trillion', link: 'brazil-population' },
-                        { rank: 8, name: 'Bangladesh', flag: 'bd', population: '174,701,211', share: '2.2%', gdp_nominal: '$446 Billion', gdp_ppp: '$1.47 Trillion', link: 'bangladesh-population' },
-                        { rank: 9, name: 'Russia', flag: 'ru', population: '143,957,079', share: '1.8%', gdp_nominal: '$2.13 Trillion', gdp_ppp: '$5.51 Trillion', link: 'russia-population' },
-                        { rank: 10, name: 'Mexico', flag: 'mx', population: '129,398,254', share: '1.6%', gdp_nominal: '$1.66 Trillion', gdp_ppp: '$2.99 Trillion', link: 'mexico-population' },
-                        { rank: 11, name: 'Ethiopia', flag: 'et', population: '129,719,719', share: '1.6%', gdp_nominal: '$156 Billion', gdp_ppp: '$409 Billion', link: 'ethiopia-population' },
-                        { rank: 12, name: 'Philippines', flag: 'ph', population: '119,106,224', share: '1.5%', gdp_nominal: '$435 Billion', gdp_ppp: '$1.28 Trillion', link: 'philippines-population' },
-                        { rank: 13, name: 'Egypt', flag: 'eg', population: '114,484,252', share: '1.4%', gdp_nominal: '$387 Billion', gdp_ppp: '$1.81 Trillion', link: 'egypt-population' },
-                        { rank: 14, name: 'DR Congo', flag: 'cd', population: '105,263,446', share: '1.3%', gdp_nominal: '$69 Billion', gdp_ppp: '$146 Billion', link: 'democratic-republic-of-the-congo-population' },
-                        { rank: 15, name: 'Vietnam', flag: 'vn', population: '99,497,680', share: '1.2%', gdp_nominal: '$433 Billion', gdp_ppp: '$1.43 Trillion', link: 'viet-nam-population' },
-                        { rank: 16, name: 'Iran', flag: 'ir', population: '89,809,781', share: '1.1%', gdp_nominal: '$366 Billion', gdp_ppp: '$1.72 Trillion', link: 'iran-population' },
-                        { rank: 17, name: 'Turkey', flag: 'tr', population: '86,260,417', share: '1.1%', gdp_nominal: '$1.15 Trillion', gdp_ppp: '$2.57 Trillion', link: 'turkey-population' },
-                        { rank: 18, name: 'Germany', flag: 'de', population: '83,294,633', share: '1.0%', gdp_nominal: '$4.42 Trillion', gdp_ppp: '$5.54 Trillion', link: 'germany-population' },
-                        { rank: 19, name: 'Thailand', flag: 'th', population: '71,847,929', share: '0.9%', gdp_nominal: '$512 Billion', gdp_ppp: '$1.55 Trillion', link: 'thailand-population' },
-                        { rank: 20, name: 'Tanzania', flag: 'tz', population: '69,017,422', share: '0.8%', gdp_nominal: '$85 Billion', gdp_ppp: '$217 Billion', link: 'tanzania-population' }
-                    ];
-
-                    const container = document.querySelector('.grid');
-                    countries.forEach((country, index) => {
-                        const cardHTML = `
-                        <a href="https://www.worldometers.info/world-population/${country.link}/" target="_blank" class="country-card bg-white rounded-lg shadow-md overflow-hidden" data-aos="fade-up" data-aos-delay="${(index % 4) * 100}">
-                            <div class="p-6">
-                                <div class="flex items-center mb-4">
-                                    <img src="https://flagcdn.com/w80/${country.flag}.png" alt="${country.name} Flag" class="flag-icon mr-3">
-                                    <h3 class="text-xl font-semibold text-gray-900">${country.rank}. ${country.name}</h3>
-                                </div>
-                                <p class="text-gray-600 mb-2"><span class="font-medium">Population:</span> ${country.population}</p>
-                                <p class="text-gray-600 mb-2"><span class="font-medium">World Share:</span> ${country.share}</p>
-                                <p class="text-gray-600 mb-2"><span class="font-medium">GDP (Nominal):</span> ${country.gdp_nominal}</p>
-                                <p class="text-gray-600"><span class="font-medium">GDP (PPP):</span> ${country.gdp_ppp}</p>
-                            </div>
-                        </a>
-                        `;
-                        container.innerHTML += cardHTML;
+                    document.addEventListener('DOMContentLoaded', function() {
+                        fetch('countries_data.json')
+                            .then(response => response.json())
+                            .then(countries => {
+                                const container = document.querySelector('.grid');
+                                countries.forEach((country, index) => {
+                                    const cardHTML = `
+                                    <a href="https://www.worldometers.info/world-population/${country.link}/" target="_blank" class="country-card bg-white rounded-lg shadow-md overflow-hidden" data-aos="fade-up" data-aos-delay="${(index % 4) * 100}">
+                                        <div class="p-6">
+                                            <div class="flex items-center mb-4">
+                                                <img src="https://flagcdn.com/w80/${country.flag}.png" alt="${country.name} Flag" class="flag-icon mr-3">
+                                                <h3 class="text-xl font-semibold text-gray-900">${country.rank}. ${country.name}</h3>
+                                            </div>
+                                            <p class="text-gray-600 mb-2"><span class="font-medium">Population:</span> ${country.population}</p>
+                                            <p class="text-gray-600 mb-2"><span class="font-medium">World Share:</span> ${country.share}</p>
+                                            <p class="text-gray-600 mb-2"><span class="font-medium">GDP (Nominal):</span> ${country.gdp_nominal}</p>
+                                            <p class="text-gray-600"><span class="font-medium">GDP (PPP):</span> ${country.gdp_ppp}</p>
+                                        </div>
+                                    </a>
+                                    `;
+                                    container.innerHTML += cardHTML;
+                                });
+                            })
+                            .catch(error => {
+                                console.error('Error fetching country data:', error);
+                                const container = document.querySelector('.grid');
+                                container.innerHTML = '<p class="text-red-500 text-center col-span-full">Could not load country data. Please try again later.</p>';
+                            });
                     });
                 </script>
             </div>
