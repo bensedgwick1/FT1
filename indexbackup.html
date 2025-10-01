@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Population Explorer | Top 20 Countries</title>
+    <meta name="description" content="Explore the top 20 most populous countries in the world with detailed demographic and economic statistics">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <style>
+        .globe-bg {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+        }
+        .country-card {
+            display: block; /* Make the entire card a block-level link */
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .country-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        .flag-icon {
+            width: 40px;
+            height: 25px;
+            object-fit: cover;
+            border-radius: 2px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body class="min-h-screen bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <i data-feather="globe" class="text-blue-600 mr-2"></i>
+                    <span class="text-xl font-semibold text-gray-900">World Population</span>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <a href="index.html" class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">Home</a>
+                   <a href="UT.html" class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">DO NOT CLICK</a>
+                      <a href="FTCITY.html" class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">Fine Tuned City Breakdown</a>
+                    <a href="employers.html" class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">US Employers</a>
+                    <a href="beautiful-places.html" class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">Beautiful Places</a>
+                    <a href="budget-destinations.html" class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">Budget Destinations</a>
+                    <a href="kids-songs.html" class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">Kids Songs</a>
+                    <a href="Unemployment-Tracker.html" class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">Unemployment Tracker</a>
+                  <a href="StateUT.html" class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">State UT</a>
+                  <a href="UT-Data-Analysis.html" class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">UT Data Analysis</a>
+                  <a href="UTCITY.html" class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">City Breakdown</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="globe-bg text-white py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-4xl md:text-6xl font-bold mb-6" data-aos="fade-up">Top 20 Countries by Population</h1>
+            <p class="text-xl md:text-2xl mb-8 max-w-3xl mx-auto" data-aos="fade-up" data-aos-delay="100">
+                Explore the most populous nations on Earth and their demographic and economic statistics
+            </p>
+            <a href="#countries" class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-blue-700 bg-white hover:bg-gray-100 transition duration-300" data-aos="fade-up" data-aos-delay="200">
+                View Countries
+                <i data-feather="arrow-down" class="ml-2"></i>
+            </a>
+        </div>
+    </div>
+
+    <!-- Countries Section -->
+    <div id="countries" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-900" data-aos="fade-up">Population & Economic Rankings</h2>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                
+                <!-- Dynamically generated country cards will be placed here -->
+                <script>
+                    const countries = [
+                        { rank: 1, name: 'India', flag: 'in', population: '1,441,719,852', share: '17.9%', gdp_nominal: '$3.73 Trillion', gdp_ppp: '$13.03 Trillion', link: 'india-population' },
+                        { rank: 2, name: 'China', flag: 'cn', population: '1,425,178,782', share: '17.7%', gdp_nominal: '$19.37 Trillion', gdp_ppp: '$33.01 Trillion', link: 'china-population' },
+                        { rank: 3, name: 'United States', flag: 'us', population: '341,814,420', share: '4.2%', gdp_nominal: '$26.85 Trillion', gdp_ppp: '$26.85 Trillion', link: 'us-population' },
+                        { rank: 4, name: 'Indonesia', flag: 'id', population: '279,798,049', share: '3.5%', gdp_nominal: '$1.39 Trillion', gdp_ppp: '$4.39 Trillion', link: 'indonesia-population' },
+                        { rank: 5, name: 'Pakistan', flag: 'pk', population: '245,209,815', share: '3.0%', gdp_nominal: '$374 Billion', gdp_ppp: '$1.51 Trillion', link: 'pakistan-population' },
+                        { rank: 6, name: 'Nigeria', flag: 'ng', population: '229,152,217', share: '2.8%', gdp_nominal: '$506 Billion', gdp_ppp: '$1.26 Trillion', link: 'nigeria-population' },
+                        { rank: 7, name: 'Brazil', flag: 'br', population: '217,637,297', share: '2.7%', gdp_nominal: '$2.08 Trillion', gdp_ppp: '$3.89 Trillion', link: 'brazil-population' },
+                        { rank: 8, name: 'Bangladesh', flag: 'bd', population: '174,701,211', share: '2.2%', gdp_nominal: '$446 Billion', gdp_ppp: '$1.47 Trillion', link: 'bangladesh-population' },
+                        { rank: 9, name: 'Russia', flag: 'ru', population: '143,957,079', share: '1.8%', gdp_nominal: '$2.13 Trillion', gdp_ppp: '$5.51 Trillion', link: 'russia-population' },
+                        { rank: 10, name: 'Mexico', flag: 'mx', population: '129,398,254', share: '1.6%', gdp_nominal: '$1.66 Trillion', gdp_ppp: '$2.99 Trillion', link: 'mexico-population' },
+                        { rank: 11, name: 'Ethiopia', flag: 'et', population: '129,719,719', share: '1.6%', gdp_nominal: '$156 Billion', gdp_ppp: '$409 Billion', link: 'ethiopia-population' },
+                        { rank: 12, name: 'Philippines', flag: 'ph', population: '119,106,224', share: '1.5%', gdp_nominal: '$435 Billion', gdp_ppp: '$1.28 Trillion', link: 'philippines-population' },
+                        { rank: 13, name: 'Egypt', flag: 'eg', population: '114,484,252', share: '1.4%', gdp_nominal: '$387 Billion', gdp_ppp: '$1.81 Trillion', link: 'egypt-population' },
+                        { rank: 14, name: 'DR Congo', flag: 'cd', population: '105,263,446', share: '1.3%', gdp_nominal: '$69 Billion', gdp_ppp: '$146 Billion', link: 'democratic-republic-of-the-congo-population' },
+                        { rank: 15, name: 'Vietnam', flag: 'vn', population: '99,497,680', share: '1.2%', gdp_nominal: '$433 Billion', gdp_ppp: '$1.43 Trillion', link: 'viet-nam-population' },
+                        { rank: 16, name: 'Iran', flag: 'ir', population: '89,809,781', share: '1.1%', gdp_nominal: '$366 Billion', gdp_ppp: '$1.72 Trillion', link: 'iran-population' },
+                        { rank: 17, name: 'Turkey', flag: 'tr', population: '86,260,417', share: '1.1%', gdp_nominal: '$1.15 Trillion', gdp_ppp: '$2.57 Trillion', link: 'turkey-population' },
+                        { rank: 18, name: 'Germany', flag: 'de', population: '83,294,633', share: '1.0%', gdp_nominal: '$4.42 Trillion', gdp_ppp: '$5.54 Trillion', link: 'germany-population' },
+                        { rank: 19, name: 'Thailand', flag: 'th', population: '71,847,929', share: '0.9%', gdp_nominal: '$512 Billion', gdp_ppp: '$1.55 Trillion', link: 'thailand-population' },
+                        { rank: 20, name: 'Tanzania', flag: 'tz', population: '69,017,422', share: '0.8%', gdp_nominal: '$85 Billion', gdp_ppp: '$217 Billion', link: 'tanzania-population' }
+                    ];
+
+                    const container = document.querySelector('.grid');
+                    countries.forEach((country, index) => {
+                        const cardHTML = `
+                        <a href="https://www.worldometers.info/world-population/${country.link}/" target="_blank" class="country-card bg-white rounded-lg shadow-md overflow-hidden" data-aos="fade-up" data-aos-delay="${(index % 4) * 100}">
+                            <div class="p-6">
+                                <div class="flex items-center mb-4">
+                                    <img src="https://flagcdn.com/w80/${country.flag}.png" alt="${country.name} Flag" class="flag-icon mr-3">
+                                    <h3 class="text-xl font-semibold text-gray-900">${country.rank}. ${country.name}</h3>
+                                </div>
+                                <p class="text-gray-600 mb-2"><span class="font-medium">Population:</span> ${country.population}</p>
+                                <p class="text-gray-600 mb-2"><span class="font-medium">World Share:</span> ${country.share}</p>
+                                <p class="text-gray-600 mb-2"><span class="font-medium">GDP (Nominal):</span> ${country.gdp_nominal}</p>
+                                <p class="text-gray-600"><span class="font-medium">GDP (PPP):</span> ${country.gdp_ppp}</p>
+                            </div>
+                        </a>
+                        `;
+                        container.innerHTML += cardHTML;
+                    });
+                </script>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">World Population</h3>
+                    <p class="text-gray-400">Exploring demographic data and population statistics from around the globe.</p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="text-gray-400 hover:text-white transition">Home</a></li>
+                        <li><a href="about.html" class="text-gray-400 hover:text-white transition">About</a></li>
+                        <li><a href="employers.html" class="text-gray-400 hover:text-white transition">US Employers</a></li>
+                        <li><a href="beautiful-places.html" class="text-gray-400 hover:text-white transition">Beautiful Places</a></li>
+                        <li><a href="https://www.worldometers.info/world-population/population-by-country/" class="text-gray-400 hover:text-white transition" target="_blank">Data Source</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Connect</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition"><i data-feather="twitter"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white transition"><i data-feather="facebook"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white transition"><i data-feather="instagram"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white transition"><i data-feather="github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
+                <p>© <script>document.write(new Date().getFullYear())</script> World Population. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>AOS.init();</script>
+    <script>feather.replace();</script>
+</body>
+</html>
