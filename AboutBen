@@ -1,8 +1,4 @@
-Of course, here is the HTML code for the webpage, saved as `AboutBen.html`. It includes a reference to `index.html` in the navigation bar as you requested.
 
-### AboutBen.html
-
-```html
 <!DOCTYPE html>
 <!--bQnSTFWaj0NQjMhHNTKmD-->
 <html lang="en">
@@ -1029,4 +1025,3 @@ Of course, here is the HTML code for the webpage, saved as `AboutBen.html`. It i
 <script>self.__next_f.push([1, "46:\"$41:metadata\"\n"])</script>
 </body>
 </html>
-``````
