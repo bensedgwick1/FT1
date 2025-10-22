@@ -1,0 +1,1032 @@
+Of course, here is the HTML code for the webpage, saved as `AboutBen.html`. It includes a reference to `index.html` in the navigation bar as you requested.
+
+### AboutBen.html
+
+```html
+<!DOCTYPE html>
+<!--bQnSTFWaj0NQjMhHNTKmD-->
+<html lang="en">
+<head>
+    <meta charSet="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="preload" href="/_next/static/media/4cf2300e9c8272f7-s.p.woff2" as="font" crossorigin="" type="font/woff2"/>
+    <link rel="preload" href="/_next/static/media/93f479601ee12b01-s.p.woff2" as="font" crossorigin="" type="font/woff2"/>
+    <link rel="preload" as="image" href="https://img.youtube.com/vi/hZnqE0BQf50/maxresdefault.jpg"/>
+    <link rel="stylesheet" href="/_next/static/css/57023275482e77dc.css" data-precedence="next"/>
+    <link rel="stylesheet" href="/_next/static/css/89fb7522e073bbcd.css" data-precedence="next"/>
+    <link rel="preload" as="script" fetchPriority="low" href="/_next/static/chunks/webpack-ac32a89d9fcfd0d8.js"/>
+    <script src="/_next/static/chunks/4bd1b696-409494caf8c83275.js" async=""></script>
+    <script src="/_next/static/chunks/255-979703d073c5cf1c.js" async=""></script>
+    <script src="/_next/static/chunks/main-app-95e62da901c4d719.js" async=""></script>
+    <script src="/_next/static/chunks/app/layout-4fd9d801923f0799.js" async=""></script>
+    <script src="/_next/static/chunks/619-f072ac750404f9da.js" async=""></script>
+    <script src="/_next/static/chunks/545-e705723c6b271264.js" async=""></script>
+    <script src="/_next/static/chunks/356-4fbb963125176205.js" async=""></script>
+    <script src="/_next/static/chunks/897-b44922f47ae5a0a7.js" async=""></script>
+    <script src="/_next/static/chunks/app/page-06275d5327a592d2.js" async=""></script>
+    <link rel="preload" href="/oneko/oneko.js" as="script"/>
+    <meta name="next-size-adjust" content=""/>
+    <title>Ufuk Ozen - Full Stack Developer &amp; iOS App Creator</title>
+    <meta name="description" content="Full Stack web developer and iOS app creator specializing in Swift, SwiftUI, React, and Next.js. Creator of Bible Verse Widget and other innovative mobile applications."/>
+    <meta name="author" content="Ufuk Ozen"/>
+    <meta name="keywords" content="Full Stack Developer, iOS Developer, Swift, SwiftUI, React, Next.js, Bible Verse Widget, Mobile App Development, Web Development, JavaScript, TypeScript"/>
+    <meta name="creator" content="Ufuk Ozen"/>
+    <meta name="publisher" content="Ufuk Ozen"/>
+    <meta name="robots" content="index, follow"/>
+    <meta name="googlebot" content="index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"/>
+    <link rel="canonical" href="https://ufukozen.com"/>
+    <meta name="google-site-verification" content="your-google-verification-code"/>
+    <meta property="og:title" content="Ufuk Ozen - Full Stack Developer &amp; iOS App Creator"/>
+    <meta property="og:description" content="Full Stack web developer and iOS app creator specializing in Swift, SwiftUI, React, and Next.js. Creator of Bible Verse Widget and other innovative mobile applications."/>
+    <meta property="og:url" content="https://ufukozen.com"/>
+    <meta property="og:site_name" content="Ufuk Ozen Portfolio"/>
+    <meta property="og:locale" content="en_US"/>
+    <meta property="og:image" content="https://ufukozen.com/og-image.png"/>
+    <meta property="og:image:width" content="1200"/>
+    <meta property="og:image:height" content="630"/>
+    <meta property="og:image:alt" content="Ufuk Ozen - Full Stack Developer Portfolio"/>
+    <meta property="og:type" content="website"/>
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:title" content="Ufuk Ozen - Full Stack Developer &amp; iOS App Creator"/>
+    <meta name="twitter:description" content="Full Stack web developer and iOS app creator specializing in Swift, SwiftUI, React, and Next.js."/>
+    <meta name="twitter:image" content="https://ufukozen.com/og-image.png"/>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" sizes="16x16"/>
+    <script src="/_next/static/chunks/polyfills-42372ed130431b0a.js" noModule=""></script>
+</head>
+<body class="__variable_188709 __variable_9a8899 antialiased">
+<div hidden="">
+    <!--$--><!--/$-->
+</div>
+<script>
+    (function () {
+        function getInitialColorMode() {
+            const persistedColorPreference = window.localStorage.getItem('theme');
+            const hasPersistedPreference = typeof persistedColorPreference === 'string';
+            if (hasPersistedPreference) {
+                return persistedColorPreference;
+            }
+            const mql = window.matchMedia('(prefers-color-scheme: dark)');
+            const hasMediaQueryPreference = typeof mql.matches === 'boolean';
+            if (hasMediaQueryPreference) {
+                return mql.matches ? 'dark' : 'light';
+            }
+            return 'light';
+        }
+
+        const colorMode = getInitialColorMode();
+        if (colorMode === 'dark') {
+            document.documentElement.classList.add('dark');
+        }
+    })();
+</script>
+<div class="fixed top-0 left-0 z-[100] pointer-events-none w-full h-full">
+    <canvas id="fluid" class="w-screen h-screen block"></canvas>
+</div>
+<div class="min-h-screen bg-background">
+    <div class="sticky top-0 z-40 flex flex-row items-center justify-center px-4 text-center text-sm font-medium bg-fd-background" style="height:3rem">
+        <style>:root {
+            --fd-banner-height: 3rem;
+        }</style>
+        <div class="absolute inset-0 z-[-1]" style="mask-image:linear-gradient(to bottom,white,transparent), radial-gradient(circle at top center, white, transparent);mask-composite:intersect;animation:fd-moving-banner 20s linear infinite;background-image:repeating-linear-gradient(70deg, rgba(0,149,255,0.56) 0%, rgba(231,77,255,0.77) 12.5%, rgba(255,0,0,0.73) 25%, rgba(131,255,166,0.66) 37.5%, rgba(0,149,255,0.56) 50%);background-size:200% 100%;filter:saturate(2)"></div>
+        <style>@keyframes fd-moving-banner {
+            from {
+                background-position: 0% 0;
+            }
+            to {
+                background-position: 100% 0;
+            }
+        }</style>
+        🚀 Follow me for new projects and blog posts!
+    </div>
+    <nav class="sticky top-0 z-50 bg-background/80 backdrop-blur-md">
+        <div class="max-w-4xl mx-auto px-4">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex items-center space-x-8">
+                    <a href="index.html" class="text-xl font-bold">Ufuk Ozen</a>
+                    <div class="hidden md:flex space-x-6">
+                        <a href="#experience" class="text-sm text-muted-foreground hover:text-foreground transition-colors">Work</a>
+                        <a href="#projects" class="text-sm text-muted-foreground hover:text-foreground transition-colors">Projects</a>
+                        <a href="#blog" class="text-sm text-muted-foreground hover:text-foreground transition-colors">Blogs</a>
+                        <a href="#contact" class="text-sm text-muted-foreground hover:text-foreground transition-colors">Contact</a>
+                    </div>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <button class="group relative inline-flex animate-rainbow cursor-pointer items-center justify-center rounded-xl border-0 bg-[length:200%] py-2 font-medium text-white dark:text-black transition-colors [background-clip:padding-box,border-box,border-box] [background-origin:border-box] [border:calc(0.08*1rem)_solid_transparent] focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 before:absolute before:bottom-[-20%] before:left-1/2 before:z-0 before:h-1/5 before:w-3/5 before:-translate-x-1/2 before:animate-rainbow before:bg-[linear-gradient(90deg,hsl(var(--color-1)),hsl(var(--color-5)),hsl(var(--color-3)),hsl(var(--color-4)),hsl(var(--color-2)))] before:bg-[length:200%] before:[filter:blur(calc(0.8*1rem))] bg-[linear-gradient(#121213,#121213),linear-gradient(#121213_50%,rgba(18,18,19,0.6)_80%,rgba(18,18,19,0)),linear-gradient(90deg,hsl(var(--color-1)),hsl(var(--color-5)),hsl(var(--color-3)),hsl(var(--color-4)),hsl(var(--color-2)))] dark:bg-[linear-gradient(#fff,#fff),linear-gradient(#fff_50%,rgba(255,255,255,0.6)_80%,rgba(0,0,0,0)),linear-gradient(90deg,hsl(var(--color-1)),hsl(var(--color-5)),hsl(var(--color-3)),hsl(var(--color-4)),hsl(var(--color-2)))] h-9 px-4 text-sm">
+                        Resume
+                    </button>
+                    <button class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent hover:text-accent-foreground w-9 h-9">
+                        <div class="h-4 w-4"></div>
+                    </button>
+                    <button class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent hover:text-accent-foreground md:hidden w-9 h-9">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu h-4 w-4" aria-hidden="true">
+                            <path d="M4 5h16"></path>
+                            <path d="M4 12h16"></path>
+                            <path d="M4 19h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main class="max-w-4xl mx-auto px-4 py-8 space-y-16">
+        <section class="pt-16 pb-8">
+            <div class="space-y-6">
+                <div class="space-y-4">
+                    <h1 class="text-4xl md:text-5xl font-bold tracking-tight">
+                        <span class="whitespace-pre-wrap" style="opacity:0;transform:translateY(10px)">
+                            <span style="display:inline-flex;align-items:center">
+                                <span class="inline-block ms-1 font-normal text-foreground select-none w-px">|</span>
+                            </span>
+                        </span>
+                    </h1>
+                    <p class="text-xl text-muted-foreground max-w-2xl">
+                        <span class="relative inline-block bg-[length:250%_100%,auto] bg-clip-text text-transparent [--base-color:var(--color-zinc-400)] [--shimmer-color:var(--color-zinc-950)] [background-repeat:no-repeat,padding-box] [--shimmer-bg:linear-gradient(90deg,transparent_calc(50%-var(--spread)),var(--shimmer-color),transparent_calc(50%+var(--spread)))] dark:[--base-color:var(--color-zinc-600)] dark:[--shimmer-color:var(--color-white)] text-xl" style="--spread:48px;background-image:var(--shimmer-bg), linear-gradient(var(--base-color), var(--base-color));background-position:100% center;opacity:0">
+                            Full Stack web developer
+                        </span> passionate about creating beautiful, functional, and user-friendly digital experiences.
+                    </p>
+                </div>
+                <div class="flex flex-wrap gap-4">
+                    <div class="inline-block">
+                        <button style="--allColors:#FF0000, #FFA500, #FFFF00, #008000, #0000FF, #4B0082, #EE82EE, #FF0000;--duration:2500ms;--borderWidth:2px;--borderRadius:6px;--blur:4px;--bgColor:#000" class="relative flex items-center justify-center min-w-28 min-h-10 overflow-hidden rainbow-btn before:absolute before:-inset-[200%] animate-rainbow gap-2">
+                            <span class="text-white btn-content inline-flex w-full h-full items-center justify-center px-4 py-2">Get My Resume</span>
+                        </button>
+                    </div>
+                    <button class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone h-4 w-4" aria-hidden="true">
+                            <path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"></path>
+                        </svg>
+                        Book a Call
+                    </button>
+                </div>
+                <div class="flex gap-4 pt-4">
+                    <a href="https://github.com/ufukozendev" target="_blank" rel="noopener noreferrer" class="text-muted-foreground hover:text-foreground transition-colors">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github h-5 w-5" aria-hidden="true">
+                            <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path>
+                            <path d="M9 18c-4.51 2-5-2-7-2"></path>
+                        </svg>
+                    </a>
+                    <a href="https://linkedin.com/in/ufukozendev" target="_blank" rel="noopener noreferrer" class="text-muted-foreground hover:text-foreground transition-colors">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-linkedin h-5 w-5" aria-hidden="true">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                            <rect width="4" height="12" x="2" y="9"></rect>
+                            <circle cx="4" cy="4" r="2"></circle>
+                        </svg>
+                    </a>
+                    <a href="https://twitter.com/ufukozendev" target="_blank" rel="noopener noreferrer" class="text-muted-foreground hover:text-foreground transition-colors">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-twitter h-5 w-5" aria-hidden="true">
+                            <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section id="experience" class="space-y-8">
+            <div class="space-y-2">
+                <h2 class="text-3xl font-bold tracking-tight">Work Experience</h2>
+                <p class="text-muted-foreground">My professional journey in software development</p>
+            </div>
+            <div class="grid gap-6">
+                <div class="rounded-lg border bg-card text-card-foreground shadow-sm hover:shadow-md transition-shadow">
+                    <div class="flex flex-col space-y-1.5 p-6">
+                        <div class="flex justify-between items-start">
+                            <div class="space-y-2">
+                                <h3 class="font-semibold tracking-tight text-xl">Full Stack Developer</h3>
+                                <p class="text-lg font-medium text-foreground">Freelancer</p>
+                            </div>
+                            <div class="text-right text-sm text-muted-foreground">
+                                <div class="flex items-center gap-1">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-calendar-days h-4 w-4" aria-hidden="true">
+                                        <path d="M8 2v4"></path>
+                                        <path d="M16 2v4"></path>
+                                        <rect width="18" height="18" x="3" y="4" rx="2"></rect>
+                                        <path d="M3 10h18"></path>
+                                        <path d="M8 14h.01"></path>
+                                        <path d="M12 14h.01"></path>
+                                        <path d="M16 14h.01"></path>
+                                        <path d="M8 18h.01"></path>
+                                        <path d="M12 18h.01"></path>
+                                        <path d="M16 18h.01"></path>
+                                    </svg>
+                                    2020 - Present
+                                </div>
+                                <div class="flex items-center gap-1 mt-1">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin h-4 w-4" aria-hidden="true">
+                                        <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path>
+                                        <circle cx="12" cy="10" r="3"></circle>
+                                    </svg>
+                                    Remote
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-6 pt-0 space-y-4">
+                        <p class="text-muted-foreground">Developing scalable web applications and mobile apps using modern technologies. Building end-to-end solutions from concept to deployment with focus on performance and user experience.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">React</div>
+                            <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">Next.js</div>
+                            <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">Node.js</div>
+                            <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">TypeScript</div>
+                            <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">React Native</div>
+                            <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">SwiftUI</div>
+                            <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">Flutter</div>
+                            <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">Swift</div>
+                            <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">PostgreSQL</div>
+                            <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">MongoDB</div>
+                            <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">AWS</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="space-y-8">
+            <div class="space-y-2">
+                <h2 class="text-3xl font-bold tracking-tight">Featured Projects</h2>
+                <p class="text-muted-foreground">Some of my recent work and side projects</p>
+            </div>
+            <div class="grid gap-6 md:grid-cols-2">
+                <div class="group">
+                    <a class="block" href="/projects/cloudpocket">
+                        <div class="rounded-lg border bg-card text-card-foreground shadow-sm hover:shadow-md transition-shadow overflow-hidden cursor-pointer group-hover:shadow-lg">
+                            <div class="aspect-video bg-muted flex items-center justify-center overflow-hidden">
+                                <img alt="CloudPocket Desktop Platform" loading="lazy" width="400" height="300" decoding="async" data-nimg="1" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" style="color:transparent" srcSet="/_next/image?url=%2Fcloudpocket-dashboard.png&amp;w=640&amp;q=75 1x, /_next/image?url=%2Fcloudpocket-dashboard.png&amp;w=828&amp;q=75 2x" src="/_next/image?url=%2Fcloudpocket-dashboard.png&amp;w=828&amp;q=75"/>
+                            </div>
+                            <div class="flex flex-col space-y-1.5 p-6">
+                                <div class="flex items-start justify-between">
+                                    <div class="space-y-2">
+                                        <h3 class="font-semibold tracking-tight text-xl group-hover:text-primary transition-colors">CloudPocket Desktop Platform</h3>
+                                        <p class="text-sm text-muted-foreground">A powerful desktop platform for managing multiple mobile accounts with advanced anti-detection capabilities and real-time action synchronization.</p>
+                                    </div>
+                                    <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-primary text-primary-foreground hover:bg-primary/80">Featured</div>
+                                </div>
+                            </div>
+                            <div class="p-6 pt-0 space-y-4">
+                                <div class="flex flex-wrap gap-2">
+                                    <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">Electron</div>
+                                    <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">Node.js</div>
+                                    <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">Tauri</div>
+                                    <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">PostgreSQL</div>
+                                </div>
+                                <div class="flex gap-2 relative z-10" style="pointer-events:auto">
+                                    <button class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-9 rounded-md px-3 gap-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-info h-4 w-4" aria-hidden="true">
+                                            <circle cx="12" cy="12" r="10"></circle>
+                                            <path d="M12 16v-4"></path>
+                                            <path d="M12 8h.01"></path>
+                                        </svg>
+                                        View Details
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="group">
+                    <a class="block" href="/projects/bible-widget-landing">
+                        <div class="rounded-lg border bg-card text-card-foreground shadow-sm hover:shadow-md transition-shadow overflow-hidden cursor-pointer group-hover:shadow-lg">
+                            <div class="aspect-video bg-muted flex items-center justify-center overflow-hidden">
+                                <img alt="Bible Widget Daily Verse Landing Page" loading="lazy" width="400" height="300" decoding="async" data-nimg="1" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" style="color:transparent" srcSet="/_next/image?url=%2Fbible_widget_daily_verse_landing_page.png&amp;w=640&amp;q=75 1x, /_next/image?url=%2Fbible_widget_daily_verse_landing_page.png&amp;w=828&amp;q=75 2x" src="/_next/image?url=%2Fbible_widget_daily_verse_landing_page.png&amp;w=828&amp;q=75"/>
+                            </div>
+                            <div class="flex flex-col space-y-1.5 p-6">
+                                <div class="flex items-start justify-between">
+                                    <div class="space-y-2">
+                                        <h3 class="font-semibold tracking-tight text-xl group-hover:text-primary transition-colors">Bible Widget Daily Verse Landing Page</h3>
+                                        <p class="text-sm text-muted-foreground">A beautiful landing page for the Bible Widget Daily app, showcasing features and encouraging downloads with modern design.</p>
+                                    </div>
+                                    <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-primary text-primary-foreground hover:bg-primary/80">Featured</div>
+                                </div>
+                            </div>
+                            <div class="p-6 pt-0 space-y-4">
+                                <div class="flex flex-wrap gap-2">
+                                    <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">Next.js</div>
+                                    <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">React</div>
+                                    <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">TypeScript</div>
+                                    <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">Tailwind CSS</div>
+                                </div>
+                                <div class="flex gap-2 relative z-10" style="pointer-events:auto">
+                                    <button class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-9 rounded-md px-3 gap-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-info h-4 w-4" aria-hidden="true">
+                                            <circle cx="12" cy="12" r="10"></circle>
+                                            <path d="M12 16v-4"></path>
+                                            <path d="M12 8h.01"></path>
+                                        </svg>
+                                        View Details
+                                    </button>
+                                    <button class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-9 rounded-md px-3 gap-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link h-4 w-4" aria-hidden="true">
+                                            <path d="M15 3h6v6"></path>
+                                            <path d="M10 14 21 3"></path>
+                                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                        </svg>
+                                        Live Demo
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="group">
+                    <a class="block" href="/projects/bible-verse-widget">
+                        <div class="rounded-lg border bg-card text-card-foreground shadow-sm hover:shadow-md transition-shadow overflow-hidden cursor-pointer group-hover:shadow-lg">
+                            <div class="aspect-video bg-muted flex items-center justify-center overflow-hidden">
+                                <img alt="Bible Widget Daily" loading="lazy" width="400" height="300" decoding="async" data-nimg="1" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" style="color:transparent" srcSet="/_next/image?url=%2Fbible-verse-widget-app.png&amp;w=640&amp;q=75 1x, /_next/image?url=%2Fbible-verse-widget-app.png&amp;w=828&amp;q=75 2x" src="/_next/image?url=%2Fbible-verse-widget-app.png&amp;w=828&amp;q=75"/>
+                            </div>
+                            <div class="flex flex-col space-y-1.5 p-6">
+                                <div class="flex items-start justify-between">
+                                    <div class="space-y-2">
+                                        <h3 class="font-semibold tracking-tight text-xl group-hover:text-primary transition-colors">Bible Widget Daily</h3>
+                                        <p class="text-sm text-muted-foreground">A daily Bible verse widget application that provides inspirational verses with beautiful UI and sharing capabilities.</p>
+                                    </div>
+                                    <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-primary text-primary-foreground hover:bg-primary/80">Featured</div>
+                                </div>
+                            </div>
+                            <div class="p-6 pt-0 space-y-4">
+                                <div class="flex flex-wrap gap-2">
+                                    <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">Swift</div>
+                                    <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">SwiftUI</div>
+                                    <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">WidgetKit</div>
+                                    <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">StoreKit</div>
+                                </div>
+                                <div class="flex gap-2 relative z-10" style="pointer-events:auto">
+                                    <button class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-9 rounded-md px-3 gap-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-info h-4 w-4" aria-hidden="true">
+                                            <circle cx="12" cy="12" r="10"></circle>
+                                            <path d="M12 16v-4"></path>
+                                            <path d="M12 8h.01"></path>
+                                        </svg>
+                                        View Details
+                                    </button>
+                                    <button class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-9 rounded-md px-3 gap-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link h-4 w-4" aria-hidden="true">
+                                            <path d="M15 3h6v6"></path>
+                                            <path d="M10 14 21 3"></path>
+                                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                        </svg>
+                                        App Store
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="group">
+                    <a class="block" href="/projects/whos-the-player">
+                        <div class="rounded-lg border bg-card text-card-foreground shadow-sm hover:shadow-md transition-shadow overflow-hidden cursor-pointer group-hover:shadow-lg">
+                            <div class="aspect-video bg-muted flex items-center justify-center overflow-hidden">
+                                <img alt="Who's the Player Pro: Multiplayer Football Quiz" loading="lazy" width="400" height="300" decoding="async" data-nimg="1" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" style="color:transparent" srcSet="/_next/image?url=%2Fwhos-the-player-pro-multiplayer-football-quiz.png&amp;w=640&amp;q=75 1x, /_next/image?url=%2Fwhos-the-player-pro-multiplayer-football-quiz.png&amp;w=828&amp;q=75 2x" src="/_next/image?url=%2Fwhos-the-player-pro-multiplayer-football-quiz.png&amp;w=828&amp;q=75"/>
+                            </div>
+                            <div class="flex flex-col space-y-1.5 p-6">
+                                <div class="flex items-start justify-between">
+                                    <div class="space-y-2">
+                                        <h3 class="font-semibold tracking-tight text-xl group-hover:text-primary transition-colors">Who's the Player Pro: Multiplayer Football Quiz</h3>
+                                        <p class="text-sm text-muted-foreground">A multiplayer football quiz game where players test their knowledge about football players and compete with friends.</p>
+                                    </div>
+                                    <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-primary text-primary-foreground hover:bg-primary/80">Featured</div>
+                                </div>
+                            </div>
+                            <div class="p-6 pt-0 space-y-4">
+                                <div class="flex flex-wrap gap-2">
+                                    <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">Flutter</div>
+                                    <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">Dart</div>
+                                    <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">Riverpod</div>
+                                    <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">GoRouter</div>
+                                </div>
+                                <div class="flex gap-2 relative z-10" style="pointer-events:auto">
+                                    <button class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-9 rounded-md px-3 gap-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-info h-4 w-4" aria-hidden="true">
+                                            <circle cx="12" cy="12" r="10"></circle>
+                                            <path d="M12 16v-4"></path>
+                                            <path d="M12 8h.01"></path>
+                                        </svg>
+                                        View Details
+                                    </button>
+                                    <button class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-9 rounded-md px-3 gap-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link h-4 w-4" aria-hidden="true">
+                                            <path d="M15 3h6v6"></path>
+                                            <path d="M10 14 21 3"></path>
+                                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                        </svg>
+                                        App Store
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="group">
+                    <a class="block" href="/projects/noob-gg">
+                        <div class="rounded-lg border bg-card text-card-foreground shadow-sm hover:shadow-md transition-shadow overflow-hidden cursor-pointer group-hover:shadow-lg">
+                            <div class="aspect-video bg-muted flex items-center justify-center overflow-hidden">
+                                <img alt="noob.gg Mobile App" loading="lazy" width="400" height="300" decoding="async" data-nimg="1" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" style="color:transparent" srcSet="/_next/image?url=%2Fnoob-gg-app.png&amp;w=640&amp;q=75 1x, /_next/image?url=%2Fnoob-gg-app.png&amp;w=828&amp;q=75 2x" src="/_next/image?url=%2Fnoob-gg-app.png&amp;w=828&amp;q=75"/>
+                            </div>
+                            <div class="flex flex-col space-y-1.5 p-6">
+                                <div class="flex items-start justify-between">
+                                    <div class="space-y-2">
+                                        <h3 class="font-semibold tracking-tight text-xl group-hover:text-primary transition-colors">noob.gg Mobile App</h3>
+                                        <p class="text-sm text-muted-foreground">A modern mobile app built with React Native that helps gamers find their perfect teammates.</p>
+                                    </div>
+                                    <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-primary text-primary-foreground hover:bg-primary/80">Featured</div>
+                                </div>
+                            </div>
+                            <div class="p-6 pt-0 space-y-4">
+                                <div class="flex flex-wrap gap-2">
+                                    <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">React Native</div>
+                                    <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">Expo</div>
+                                    <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">TypeScript</div>
+                                    <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">NativeWind</div>
+                                </div>
+                                <div class="flex gap-2 relative z-10" style="pointer-events:auto">
+                                    <button class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-9 rounded-md px-3 gap-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-info h-4 w-4" aria-hidden="true">
+                                            <circle cx="12" cy="12" r="10"></circle>
+                                            <path d="M12 16v-4"></path>
+                                            <path d="M12 8h.01"></path>
+                                        </svg>
+                                        View Details
+                                    </button>
+                                    <button class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-9 rounded-md px-3 gap-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link h-4 w-4" aria-hidden="true">
+                                            <path d="M15 3h6v6"></path>
+                                            <path d="M10 14 21 3"></path>
+                                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                        </svg>
+                                        App Store
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="space-y-8">
+            <div class="space-y-2">
+                <h2 class="text-3xl font-bold tracking-tight">About Me</h2>
+                <p class="text-muted-foreground">A bit more about who I am and what I do</p>
+            </div>
+            <div class="rounded-lg border bg-card text-card-foreground shadow-sm">
+                <div class="p-6">
+                    <div class="space-y-4">
+                        <p class="text-muted-foreground leading-relaxed">Hi, I'm Ufuk Ozen, a passionate mobile and web developer specializing in iOS apps with Swift, cross-platform apps with Flutter, and modern web applications with Next.js. I have extensive experience with databases, API integration, and backend development, creating scalable, high-performance, and user-friendly applications.</p>
+                        <p class="text-muted-foreground leading-relaxed">My work focuses on delivering clean, efficient, and maintainable code while staying up-to-date with the latest technologies and best practices. I am dedicated to turning ideas into functional and impactful digital solutions, optimizing both user experience and SEO.</p>
+                        <p class="text-muted-foreground leading-relaxed">I help businesses and individuals achieve their goals through innovative, high-quality applications that combine technical excellence with outstanding user experience.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="rounded-lg border bg-card text-card-foreground shadow-sm">
+            <div class="flex flex-col space-y-1.5 p-6">
+                <h3 class="text-2xl font-semibold leading-none tracking-tight">GitHub Activity</h3>
+                <p class="text-sm text-muted-foreground">Son bir yıldaki katkılarım</p>
+            </div>
+            <div class="p-6 pt-0">
+                <div class="flex items-center justify-center h-32">
+                    <div class="animate-spin rounded-full h-8 w-8 border-b-2 border-primary"></div>
+                </div>
+            </div>
+        </div>
+        <section id="blog" class="space-y-8">
+            <div class="space-y-2">
+                <h2 class="text-3xl font-bold tracking-tight">Latest Blog Posts</h2>
+                <p class="text-muted-foreground">Thoughts, tutorials, and insights about web development</p>
+            </div>
+            <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+                <a href="/blog/bible-widget-lock-screen-complete-guide">
+                    <div class="rounded-lg border bg-card text-card-foreground shadow-sm hover:shadow-md transition-shadow cursor-pointer overflow-hidden">
+                        <div class="relative h-48 w-full">
+                            <img alt="How to Add Bible Widget to iPhone Lock Screen: Complete Setup Guide 2025" loading="lazy" decoding="async" data-nimg="fill" class="object-cover" style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent" sizes="100vw" srcSet="/_next/image?url=%2Fimages%2Fbible-widget-iphone-lock-screen-guide-2025.webp&amp;w=640&amp;q=75 640w, /_next/image?url=%2Fimages%2Fbible-widget-iphone-lock-screen-guide-2025.webp&amp;w=750&amp;q=75 750w, /_next/image?url=%2Fimages%2Fbible-widget-iphone-lock-screen-guide-2025.webp&amp;w=828&amp;q=75 828w, /_next/image?url=%2Fimages%2Fbible-widget-iphone-lock-screen-guide-2025.webp&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2Fimages%2Fbible-widget-iphone-lock-screen-guide-2025.webp&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2Fimages%2Fbible-widget-iphone-lock-screen-guide-2025.webp&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2Fimages%2Fbible-widget-iphone-lock-screen-guide-2025.webp&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2Fimages%2Fbible-widget-iphone-lock-screen-guide-2025.webp&amp;w=3840&amp;q=75 3840w" src="/_next/image?url=%2Fimages%2Fbible-widget-iphone-lock-screen-guide-2025.webp&amp;w=3840&amp;q=75"/>
+                        </div>
+                        <div class="flex flex-col space-y-1.5 p-6">
+                            <div class="space-y-2">
+                                <div class="flex items-center gap-2 text-sm text-muted-foreground">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-calendar-days h-4 w-4" aria-hidden="true">
+                                        <path d="M8 2v4"></path>
+                                        <path d="M16 2v4"></path>
+                                        <rect width="18" height="18" x="3" y="4" rx="2"></rect>
+                                        <path d="M3 10h18"></path>
+                                        <path d="M8 14h.01"></path>
+                                        <path d="M12 14h.01"></path>
+                                        <path d="M16 14h.01"></path>
+                                        <path d="M8 18h.01"></path>
+                                        <path d="M12 18h.01"></path>
+                                        <path d="M16 18h.01"></path>
+                                    </svg>
+                                    2025-10-04<span>•</span>6 min read
+                                </div>
+                                <h3 class="font-semibold tracking-tight text-lg">How to Add Bible Widget to iPhone Lock Screen: Complete Setup Guide 2025</h3>
+                                <p class="text-sm text-muted-foreground">Complete step-by-step guide to add Bible verse widgets to your iPhone lock screen. Transform your daily spiritual routine with the best Bible Widget app for iOS.</p>
+                            </div>
+                        </div>
+                        <div class="p-6 pt-0 space-y-4">
+                            <div class="flex flex-wrap gap-2">
+                                <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">Bible Widget</div>
+                                <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">Bible Verse Widget</div>
+                                <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">Lock Screen</div>
+                                <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">iPhone Bible</div>
+                                <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">Daily Scripture</div>
+                                <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">Verse of the Day</div>
+                                <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">Christian Apps</div>
+                                <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">Bible Study</div>
+                                <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">iOS Widgets</div>
+                                <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">Bible Study App</div>
+                                <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">How to Add Bible Verse Widget</div>
+                                <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">Lock Screen Bible</div>
+                                <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">Daily Verses</div>
+                                <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">Christian iPhone Apps</div>
+                                <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">Scripture Apps</div>
+                                <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">Bible App</div>
+                                <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">iPhone Widgets</div>
+                                <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">Faith Apps</div>
+                                <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">Spiritual Apps</div>
+                            </div>
+                            <div class="flex items-center justify-between text-sm text-muted-foreground mt-2">
+                                <span>Read more</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right h-4 w-4" aria-hidden="true">
+                                    <path d="M5 12h14"></path>
+                                    <path d="m12 5 7 7-7 7"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="/blog/gemini-3-early-access-guide">
+                    <div class="rounded-lg border bg-card text-card-foreground shadow-sm hover:shadow-md transition-shadow cursor-pointer overflow-hidden">
+                        <div class="relative h-48 w-full">
+                            <img alt="How to Get Early Access to Google Gemini 3.0: Complete Guide 2025" loading="lazy" decoding="async" data-nimg="fill" class="object-cover" style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent" sizes="100vw" srcSet="/_next/image?url=%2Fimages%2Fgemini-3-early-access-hero.webp&amp;w=640&amp;q=75 640w, /_next/image?url=%2Fimages%2Fgemini-3-early-access-hero.webp&amp;w=750&amp;q=75 750w, /_next/image?url=%2Fimages%2Fgemini-3-early-access-hero.webp&amp;w=828&amp;q=75 828w, /_next/image?url=%2Fimages%2Fgemini-3-early-access-hero.webp&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2Fimages%2Fgemini-3-early-access-hero.webp&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2Fimages%2Fgemini-3-early-access-hero.webp&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2Fimages%2Fgemini-3-early-access-hero.webp&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2Fimages%2Fgemini-3-early-access-hero.webp&amp;w=3840&amp;q=75 3840w" src="/_next/image?url=%2Fimages%2Fgemini-3-early-access-hero.webp&amp;w=3840&amp;q=75"/>
+                        </div>
+                        <div class="flex flex-col space-y-1.5 p-6">
+                            <div class="space-y-2">
+                                <div class="flex items-center gap-2 text-sm text-muted-foreground">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-calendar-days h-4 w-4" aria-hidden="true">
+                                        <path d="M8 2v4"></path>
+                                        <path d="M16 2v4"></path>
+                                        <rect width="18" height="18" x="3" y="4" rx="2"></rect>
+                                        <path d="M3 10h18"></path>
+                                        <path d="M8 14h.01"></path>
+                                        <path d="M12 14h.01"></path>
+                                        <path d="M16 14h.01"></path>
+                                        <path d="M8 18h.01"></path>
+                                        <path d="M12 18h.01"></path>
+                                        <path d="M16 18h.01"></path>
+                                    </svg>
+                                    2025-10-04<span>•</span>9 min read
+                                </div>
+                                <h3 class="font-semibold tracking-tight text-lg">How to Get Early Access to Google Gemini 3.0: Complete Guide 2025</h3>
+                                <p class="text-sm text-muted-foreground">Complete step-by-step guide to get early access to Google Gemini 3.0 through AI Studio. Latest Google Gemini News reveals how to access Gemini 3 features before public release.</p>
+                            </div>
+                        </div>
+                        <div class="p-6 pt-0 space-y-4">
+                            <div class="flex flex-wrap gap-2">
+                                <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">Google Gemini 3.0</div>
+                                <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">Gemini 3</div>
+                                <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">Google Gemini News</div>
+                                <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">AI Studio</div>
+                                <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">Early Access</div>
+                                <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">Google AI</div>
+                                <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">Machine Learning</div>
+                                <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">Artificial Intelligence</div>
+                            </div>
+                            <div class="flex items-center justify-between text-sm text-muted-foreground mt-2">
+                                <span>Read more</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right h-4 w-4" aria-hidden="true">
+                                    <path d="M5 12h14"></path>
+                                    <path d="m12 5 7 7-7 7"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="/blog/grok-code-fast-free-cline">
+                    <div class="rounded-lg border bg-card text-card-foreground shadow-sm hover:shadow-md transition-shadow cursor-pointer overflow-hidden">
+                        <div class="relative h-48 w-full">
+                            <img alt="Grok Code Fast 1 - Now 100% FREE on Cline" loading="lazy" decoding="async" data-nimg="fill" class="object-cover" style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent" sizes="100vw" srcSet="/_next/image?url=%2Fimages%2Fgrok-code-fast-cline-free-access-official.webp&amp;w=640&amp;q=75 640w, /_next/image?url=%2Fimages%2Fgrok-code-fast-cline-free-access-official.webp&amp;w=750&amp;q=75 750w, /_next/image?url=%2Fimages%2Fgrok-code-fast-cline-free-access-official.webp&amp;w=828&amp;q=75 828w, /_next/image?url=%2Fimages%2Fgrok-code-fast-cline-free-access-official.webp&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2Fimages%2Fgrok-code-fast-cline-free-access-official.webp&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2Fimages%2Fgrok-code-fast-cline-free-access-official.webp&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2Fimages%2Fgrok-code-fast-cline-free-access-official.webp&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2Fimages%2Fgrok-code-fast-cline-free-access-official.webp&amp;w=3840&amp;q=75 3840w" src="/_next/image?url=%2Fimages%2Fgrok-code-fast-cline-free-access-official.webp&amp;w=3840&amp;q=75"/>
+                        </div>
+                        <div class="flex flex-col space-y-1.5 p-6">
+                            <div class="space-y-2">
+                                <div class="flex items-center gap-2 text-sm text-muted-foreground">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-calendar-days h-4 w-4" aria-hidden="true">
+                                        <path d="M8 2v4"></path>
+                                        <path d="M16 2v4"></path>
+                                        <rect width="18" height="18" x="3" y="4" rx="2"></rect>
+                                        <path d="M3 10h18"></path>
+                                        <path d="M8 14h.01"></path>
+                                        <path d="M12 14h.01"></path>
+                                        <path d="M16 14h.01"></path>
+                                        <path d="M8 18h.01"></path>
+                                        <path d="M12 18h.01"></path>
+                                        <path d="M16 18h.01"></path>
+                                    </svg>
+                                    2025-10-04<span>•</span>6 min read
+                                </div>
+                                <h3 class="font-semibold tracking-tight text-lg">Grok Code Fast 1 - Now 100% FREE on Cline</h3>
+                                <p class="text-sm text-muted-foreground">Revolutionary news: xAI's Grok Code Fast now outperforms Claude Sonnet 4.5 and GPT-5 Codex in diff edit success rates while being 15x and 6x cheaper respectively. Get 100% FREE access through Cline extension - Complete setup guide and exclusive insights.</p>
+                            </div>
+                        </div>
+                        <div class="p-6 pt-0 space-y-4">
+                            <div class="flex flex-wrap gap-2">
+                                <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">Grok Code Fast</div>
+                                <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">xAI</div>
+                                <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">Cline</div>
+                                <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">Free AI</div>
+                                <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">AI Coding</div>
+                                <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">Claude 4.5</div>
+                                <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">GPT-5 Codex</div>
+                                <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">AI Models</div>
+                            </div>
+                            <div class="flex items-center justify-between text-sm text-muted-foreground mt-2">
+                                <span>Read more</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right h-4 w-4" aria-hidden="true">
+                                    <path d="M5 12h14"></path>
+                                    <path d="m12 5 7 7-7 7"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="text-center mt-8">
+                <a href="/blog">
+                    <div class="inline-block">
+                        <button style="--allColors:#FF0000, #FFA500, #FFFF00, #008000, #0000FF, #4B0082, #EE82EE, #FF0000;--duration:2500ms;--borderWidth:2px;--borderRadius:6px;--blur:4px;--bgColor:#000" class="relative justify-center min-w-28 min-h-10 overflow-hidden rainbow-btn before:absolute before:-inset-[200%] animate-rainbow inline-flex items-center gap-2">
+                            <span class="text-white btn-content inline-flex w-full h-full items-center justify-center px-4 py-2">View More Posts</span>
+                        </button>
+                    </div>
+                </a>
+            </div>
+        </section>
+        <section id="linkedin-posts" class="space-y-8">
+            <div class="space-y-2">
+                <div class="flex items-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-linkedin h-6 w-6 text-blue-600" aria-hidden="true">
+                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                        <rect width="4" height="12" x="2" y="9"></rect>
+                        <circle cx="4" cy="4" r="2"></circle>
+                    </svg>
+                    <h2 class="text-3xl font-bold tracking-tight">LinkedIn Posts</h2>
+                </div>
+                <p class="text-muted-foreground">My posts about development processes, projects and technical experiences</p>
+            </div>
+            <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+                <div class="rounded-lg border bg-card text-card-foreground shadow-sm hover:shadow-md transition-shadow cursor-pointer">
+                    <div class="flex flex-col space-y-1.5 p-6">
+                        <div class="space-y-2">
+                            <div class="flex items-center gap-2 text-sm text-muted-foreground">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-calendar-days h-4 w-4" aria-hidden="true">
+                                    <path d="M8 2v4"></path>
+                                    <path d="M16 2v4"></path>
+                                    <rect width="18" height="18" x="3" y="4" rx="2"></rect>
+                                    <path d="M3 10h18"></path>
+                                    <path d="M8 14h.01"></path>
+                                    <path d="M12 14h.01"></path>
+                                    <path d="M16 14h.01"></path>
+                                    <path d="M8 18h.01"></path>
+                                    <path d="M12 18h.01"></path>
+                                    <path d="M16 18h.01"></path>
+                                </svg>
+                                2 minutes ago
+                            </div>
+                            <h3 class="font-semibold tracking-tight text-lg">Today Feature - Rapid Development with AI</h3>
+                            <p class="text-sm text-muted-foreground">Today I want to share the 'Today' feature I developed for my app. I created it quite quickly by leveraging artificial intelligence.</p>
+                        </div>
+                    </div>
+                    <div class="p-6 pt-0 space-y-4">
+                        <div class="flex flex-wrap gap-2">
+                            <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">iOS</div>
+                            <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">AI</div>
+                            <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">ProductDevelopment</div>
+                            <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">UX</div>
+                            <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">Swift</div>
+                        </div>
+                        <button class="inline-flex items-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent hover:text-accent-foreground w-full justify-between p-0 h-auto">
+                            <span>View on LinkedIn</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link h-4 w-4" aria-hidden="true">
+                                <path d="M15 3h6v6"></path>
+                                <path d="M10 14 21 3"></path>
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="rounded-lg border bg-card text-card-foreground shadow-sm hover:shadow-md transition-shadow cursor-pointer">
+                    <div class="flex flex-col space-y-1.5 p-6">
+                        <div class="space-y-2">
+                            <div class="flex items-center gap-2 text-sm text-muted-foreground">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-calendar-days h-4 w-4" aria-hidden="true">
+                                    <path d="M8 2v4"></path>
+                                    <path d="M16 2v4"></path>
+                                    <rect width="18" height="18" x="3" y="4" rx="2"></rect>
+                                    <path d="M3 10h18"></path>
+                                    <path d="M8 14h.01"></path>
+                                    <path d="M12 14h.01"></path>
+                                    <path d="M16 14h.01"></path>
+                                    <path d="M8 18h.01"></path>
+                                    <path d="M12 18h.01"></path>
+                                    <path d="M16 18h.01"></path>
+                                </svg>
+                                5 minutes ago
+                            </div>
+                            <h3 class="font-semibold tracking-tight text-lg">SwiftUI Onboarding Experience - AI-Powered Development</h3>
+                            <p class="text-sm text-muted-foreground">I designed a completely new onboarding experience for my app and coded it with SwiftUI. I really enjoyed bringing my ideas to life quickly with AI support.</p>
+                        </div>
+                    </div>
+                    <div class="p-6 pt-0 space-y-4">
+                        <div class="flex flex-wrap gap-2">
+                            <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">SwiftUI</div>
+                            <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">iOS</div>
+                            <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">AI</div>
+                            <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">UX</div>
+                            <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">MobileDevelopment</div>
+                        </div>
+                        <button class="inline-flex items-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent hover:text-accent-foreground w-full justify-between p-0 h-auto">
+                            <span>View on LinkedIn</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link h-4 w-4" aria-hidden="true">
+                                <path d="M15 3h6v6"></path>
+                                <path d="M10 14 21 3"></path>
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="rounded-lg border bg-card text-card-foreground shadow-sm hover:shadow-md transition-shadow cursor-pointer">
+                    <div class="flex flex-col space-y-1.5 p-6">
+                        <div class="space-y-2">
+                            <div class="flex items-center gap-2 text-sm text-muted-foreground">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-calendar-days h-4 w-4" aria-hidden="true">
+                                    <path d="M8 2v4"></path>
+                                    <path d="M16 2v4"></path>
+                                    <rect width="18" height="18" x="3" y="4" rx="2"></rect>
+                                    <path d="M3 10h18"></path>
+                                    <path d="M8 14h.01"></path>
+                                    <path d="M12 14h.01"></path>
+                                    <path d="M16 14h.01"></path>
+                                    <path d="M8 18h.01"></path>
+                                    <path d="M12 18h.01"></path>
+                                    <path d="M16 18h.01"></path>
+                                </svg>
+                                10 minutes ago
+                            </div>
+                            <h3 class="font-semibold tracking-tight text-lg">noob.gg Mobile App - React Native &amp; Expo</h3>
+                            <p class="text-sm text-muted-foreground">Açık kaynak gaming topluluğuna katkım! noob.gg için React Native &amp; Expo kullanarak mobil uygulama geliştirdim. Oyuncuları birbirine bağlayan ve mükemmel takımlarını bulmalarına yardımcı olan devrimci platform!</p>
+                        </div>
+                    </div>
+                    <div class="p-6 pt-0 space-y-4">
+                        <div class="flex flex-wrap gap-2">
+                            <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">ReactNative</div>
+                            <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">MobileDevelopment</div>
+                            <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">Gaming</div>
+                            <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">OpenSource</div>
+                            <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">Expo</div>
+                        </div>
+                        <button class="inline-flex items-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent hover:text-accent-foreground w-full justify-between p-0 h-auto">
+                            <span>View on LinkedIn</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link h-4 w-4" aria-hidden="true">
+                                <path d="M15 3h6v6"></path>
+                                <path d="M10 14 21 3"></path>
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <button class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-linkedin h-4 w-4" aria-hidden="true">
+                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                        <rect width="4" height="12" x="2" y="9"></rect>
+                        <circle cx="4" cy="4" r="2"></circle>
+                    </svg>
+                    View All Posts
+                </button>
+            </div>
+        </section>
+        <div class="relative z-20 py-6 lg:py-20 max-w-7xl mx-auto">
+            <div class="px-8">
+                <h4 class="text-3xl lg:text-5xl lg:leading-tight max-w-5xl mx-auto text-center tracking-tight font-medium" style="color:var(--foreground)">AI-Powered App Development &amp; Viral Video Marketing</h4>
+                <p class="text-sm lg:text-base  max-w-2xl  my-4 mx-auto text-center font-normal" style="color:var(--foreground)">We develop innovative mobile apps and create viral AI-generated videos to promote them. From concept to viral marketing campaigns.</p>
+            </div>
+            <div class="relative ">
+                <div class="grid grid-cols-1 lg:grid-cols-6 mt-12 xl:border border-neutral-200 dark:border-neutral-800 rounded-md">
+                    <div class="p-4 sm:p-8 relative overflow-hidden col-span-1 lg:col-span-3 lg:border-r border-neutral-200 dark:border-neutral-800">
+                        <p class=" max-w-5xl mx-auto text-left tracking-tight text-xl md:text-2xl md:leading-snug" style="color:var(--foreground)">Watch Our Apps Go Viral</p>
+                        <p class="text-sm font-normal text-left max-w-sm mx-0 md:text-sm my-2" style="color:var(--foreground)">See how we create viral AI-generated videos for our apps and watch them gain millions of views on YouTube</p>
+                        <div class=" h-full w-full">
+                            <a href="https://www.youtube.com/shorts/hZnqE0BQf50" target="__blank" class="relative flex gap-10  h-full group/image">
+                                <div class="w-full  mx-auto bg-transparent dark:bg-transparent group h-full">
+                                    <div class="flex flex-1 w-full h-full flex-col space-y-2  relative">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none" class="tabler-icon tabler-icon-brand-youtube-filled h-20 w-20 absolute z-10 inset-0 text-red-500 m-auto ">
+                                            <path d="M18 3a5 5 0 0 1 5 5v8a5 5 0 0 1 -5 5h-12a5 5 0 0 1 -5 -5v-8a5 5 0 0 1 5 -5zm-9 6v6a1 1 0 0 0 1.514 .857l5 -3a1 1 0 0 0 0 -1.714l-5 -3a1 1 0 0 0 -1.514 .857z"></path>
+                                        </svg>
+                                        <img src="https://img.youtube.com/vi/hZnqE0BQf50/maxresdefault.jpg" alt="YouTube video thumbnail" width="800" height="800" class="h-full w-full aspect-square object-cover object-center rounded-sm blur-none group-hover/image:blur-md transition-all duration-200"/>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="p-4 sm:p-8 relative overflow-hidden col-span-1 lg:col-span-3 border-b border-neutral-200 dark:border-neutral-800 lg:border-none">
+                        <p class=" max-w-5xl mx-auto text-left tracking-tight text-xl md:text-2xl md:leading-snug" style="color:var(--foreground)">AI-Driven Development &amp; Marketing</p>
+                        <p class="text-sm font-normal text-left max-w-sm mx-0 md:text-sm my-2" style="color:var(--foreground)">We build apps with AI integration and create viral marketing videos using cutting-edge AI tools. Complete solution from development to viral success.</p>
+                        <div class=" h-full w-full">
+                            <div class="h-60 md:h-60  flex flex-col items-center relative bg-transparent dark:bg-transparent mt-10">
+                                <canvas style="width:600px;height:600px;max-width:100%;aspect-ratio:1" class="absolute -right-10 md:-right-10 -bottom-80 md:-bottom-72"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="space-y-8">
+            <div class="text-center space-y-4">
+                <h2 class="text-3xl font-bold tracking-tight">Frequently Asked Questions</h2>
+                <p class="text-muted-foreground text-lg max-w-2xl mx-auto">Common questions about my development services and expertise</p>
+            </div>
+            <div data-slot="accordion" class="w-full max-w-3xl mx-auto" data-orientation="vertical">
+                <div data-state="closed" data-orientation="vertical" data-slot="accordion-item" class="border-b border-border">
+                    <h3 data-orientation="vertical" data-state="closed" class="flex">
+                        <button type="button" aria-controls="radix-_R_j9qnnb_" aria-expanded="false" data-state="closed" data-orientation="vertical" id="radix-_R_39qnnb_" data-slot="accordion-trigger" class="flex flex-1 items-center justify-between py-4 gap-2.5 text-foreground font-medium transition-all [&amp;[data-state=open]&gt;svg]:rotate-180 cursor-pointer" data-radix-collection-item="">
+                            What technologies do you specialize in?
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down size-4 shrink-0 transition-transform duration-200" aria-hidden="true">
+                                <path d="m6 9 6 6 6-6"></path>
+                            </svg>
+                        </button>
+                    </h3>
+                    <div data-state="closed" id="radix-_R_j9qnnb_" hidden="" role="region" aria-labelledby="radix-_R_39qnnb_" data-orientation="vertical" data-slot="accordion-content" class="overflow-hidden text-sm text-accent-foreground transition-all data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down" style="--radix-accordion-content-height:var(--radix-collapsible-content-height);--radix-accordion-content-width:var(--radix-collapsible-content-width)"></div>
+                </div>
+                <div data-state="closed" data-orientation="vertical" data-slot="accordion-item" class="border-b border-border">
+                    <h3 data-orientation="vertical" data-state="closed" class="flex">
+                        <button type="button" aria-controls="radix-_R_l9qnnb_" aria-expanded="false" data-state="closed" data-orientation="vertical" id="radix-_R_59qnnb_" data-slot="accordion-trigger" class="flex flex-1 items-center justify-between py-4 gap-2.5 text-foreground font-medium transition-all [&amp;[data-state=open]&gt;svg]:rotate-180 cursor-pointer" data-radix-collection-item="">
+                            How long does a typical project take?
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down size-4 shrink-0 transition-transform duration-200" aria-hidden="true">
+                                <path d="m6 9 6 6 6-6"></path>
+                            </svg>
+                        </button>
+                    </h3>
+                    <div data-state="closed" id="radix-_R_l9qnnb_" hidden="" role="region" aria-labelledby="radix-_R_59qnnb_" data-orientation="vertical" data-slot="accordion-content" class="overflow-hidden text-sm text-accent-foreground transition-all data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down" style="--radix-accordion-content-height:var(--radix-collapsible-content-height);--radix-accordion-content-width:var(--radix-collapsible-content-width)"></div>
+                </div>
+                <div data-state="closed" data-orientation="vertical" data-slot="accordion-item" class="border-b border-border">
+                    <h3 data-orientation="vertical" data-state="closed" class="flex">
+                        <button type="button" aria-controls="radix-_R_n9qnnb_" aria-expanded="false" data-state="closed" data-orientation="vertical" id="radix-_R_79qnnb_" data-slot="accordion-trigger" class="flex flex-1 items-center justify-between py-4 gap-2.5 text-foreground font-medium transition-all [&amp;[data-state=open]&gt;svg]:rotate-180 cursor-pointer" data-radix-collection-item="">
+                            Do you work with international clients?
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down size-4 shrink-0 transition-transform duration-200" aria-hidden="true">
+                                <path d="m6 9 6 6 6-6"></path>
+                            </svg>
+                        </button>
+                    </h3>
+                    <div data-state="closed" id="radix-_R_n9qnnb_" hidden="" role="region" aria-labelledby="radix-_R_79qnnb_" data-orientation="vertical" data-slot="accordion-content" class="overflow-hidden text-sm text-accent-foreground transition-all data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down" style="--radix-accordion-content-height:var(--radix-collapsible-content-height);--radix-accordion-content-width:var(--radix-collapsible-content-width)"></div>
+                </div>
+                <div data-state="closed" data-orientation="vertical" data-slot="accordion-item" class="border-b border-border">
+                    <h3 data-orientation="vertical" data-state="closed" class="flex">
+                        <button type="button" aria-controls="radix-_R_p9qnnb_" aria-expanded="false" data-state="closed" data-orientation="vertical" id="radix-_R_99qnnb_" data-slot="accordion-trigger" class="flex flex-1 items-center justify-between py-4 gap-2.5 text-foreground font-medium transition-all [&amp;[data-state=open]&gt;svg]:rotate-180 cursor-pointer" data-radix-collection-item="">
+                            What's your development process like?
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down size-4 shrink-0 transition-transform duration-200" aria-hidden="true">
+                                <path d="m6 9 6 6 6-6"></path>
+                            </svg>
+                        </button>
+                    </h3>
+                    <div data-state="closed" id="radix-_R_p9qnnb_" hidden="" role="region" aria-labelledby="radix-_R_99qnnb_" data-orientation="vertical" data-slot="accordion-content" class="overflow-hidden text-sm text-accent-foreground transition-all data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down" style="--radix-accordion-content-height:var(--radix-collapsible-content-height);--radix-accordion-content-width:var(--radix-collapsible-content-width)"></div>
+                </div>
+                <div data-state="closed" data-orientation="vertical" data-slot="accordion-item" class="border-b border-border">
+                    <h3 data-orientation="vertical" data-state="closed" class="flex">
+                        <button type="button" aria-controls="radix-_R_r9qnnb_" aria-expanded="false" data-state="closed" data-orientation="vertical" id="radix-_R_b9qnnb_" data-slot="accordion-trigger" class="flex flex-1 items-center justify-between py-4 gap-2.5 text-foreground font-medium transition-all [&amp;[data-state=open]&gt;svg]:rotate-180 cursor-pointer" data-radix-collection-item="">
+                            Do you provide ongoing maintenance and support?
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down size-4 shrink-0 transition-transform duration-200" aria-hidden="true">
+                                <path d="m6 9 6 6 6-6"></path>
+                            </svg>
+                        </button>
+                    </h3>
+                    <div data-state="closed" id="radix-_R_r9qnnb_" hidden="" role="region" aria-labelledby="radix-_R_b9qnnb_" data-orientation="vertical" data-slot="accordion-content" class="overflow-hidden text-sm text-accent-foreground transition-all data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down" style="--radix-accordion-content-height:var(--radix-collapsible-content-height);--radix-accordion-content-width:var(--radix-collapsible-content-width)"></div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="space-y-8 pb-16">
+            <div class="space-y-2">
+                <h2 class="text-3xl font-bold tracking-tight">Get In Touch</h2>
+                <p class="text-muted-foreground">Feel free to reach out for collaborations or just a friendly hello</p>
+            </div>
+            <div class="grid gap-6 md:grid-cols-2">
+                <div class="rounded-lg border bg-card text-card-foreground shadow-sm">
+                    <div class="flex flex-col space-y-1.5 p-6">
+                        <h3 class="text-2xl font-semibold leading-none tracking-tight">Contact Information</h3>
+                        <p class="text-sm text-muted-foreground">Let's connect and discuss opportunities</p>
+                    </div>
+                    <div class="p-6 pt-0 space-y-6">
+                        <div class="space-y-4">
+                            <div class="flex items-center gap-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail h-5 w-5 text-muted-foreground" aria-hidden="true">
+                                    <path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"></path>
+                                    <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                                </svg>
+                                <div>
+                                    <p class="font-medium">Email</p>
+                                    <p class="text-sm text-muted-foreground">info@ufukozen.com</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin h-5 w-5 text-muted-foreground" aria-hidden="true">
+                                    <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path>
+                                    <circle cx="12" cy="10" r="3"></circle>
+                                </svg>
+                                <div>
+                                    <p class="font-medium">Location</p>
+                                    <p class="text-sm text-muted-foreground">Turkey, İzmir</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="space-y-3">
+                            <p class="font-medium">Follow me</p>
+                            <div class="flex gap-4">
+                                <a href="https://github.com/ufukozendev" target="_blank" rel="noopener noreferrer" class="text-muted-foreground hover:text-foreground transition-colors">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github h-5 w-5" aria-hidden="true">
+                                        <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path>
+                                        <path d="M9 18c-4.51 2-5-2-7-2"></path>
+                                    </svg>
+                                </a>
+                                <a href="https://linkedin.com/in/ufukozendev" target="_blank" rel="noopener noreferrer" class="text-muted-foreground hover:text-foreground transition-colors">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-linkedin h-5 w-5" aria-hidden="true">
+                                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                        <rect width="4" height="12" x="2" y="9"></rect>
+                                        <circle cx="4" cy="4" r="2"></circle>
+                                    </svg>
+                                </a>
+                                <a href="https://twitter.com/ufukozendev" target="_blank" rel="noopener noreferrer" class="text-muted-foreground hover:text-foreground transition-colors">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-twitter h-5 w-5" aria-hidden="true">
+                                        <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="rounded-lg border bg-card text-card-foreground shadow-sm">
+                    <div class="flex flex-col space-y-1.5 p-6">
+                        <h3 class="text-2xl font-semibold leading-none tracking-tight">Send a Message</h3>
+                        <p class="text-sm text-muted-foreground">Or use the form below to send me a direct message</p>
+                    </div>
+                    <div class="p-6 pt-0 space-y-4">
+                        <form class="space-y-4">
+                            <div class="space-y-2">
+                                <label for="name" class="text-sm font-medium">Name</label>
+                                <input id="name" type="text" placeholder="Your name" class="w-full px-3 py-2 border rounded-md bg-background text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring"/>
+                            </div>
+                            <div class="space-y-2">
+                                <label for="email" class="text-sm font-medium">Email</label>
+                                <input id="email" type="email" placeholder="your.email@example.com" class="w-full px-3 py-2 border rounded-md bg-background text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring"/>
+                            </div>
+                            <div class="space-y-2">
+                                <label for="message" class="text-sm font-medium">Message</label>
+                                <textarea id="message" rows="4" placeholder="Your message..." class="w-full px-3 py-2 border rounded-md bg-background text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring resize-none"></textarea>
+                            </div>
+                            <button class="flex min-w-[120px] cursor-pointer items-center justify-center gap-2 rounded-full bg-green-500 px-4 py-2 font-medium text-white ring-offset-2 transition duration-200 hover:ring-2 hover:ring-green-500 dark:ring-offset-black w-full" type="submit">
+                                <div class="flex items-center gap-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="loader text-white" style="display:none;width:0px;transform:scale(0)">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                        <path d="M12 3a9 9 0 1 0 9 9"></path>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="check text-white" style="display:none;width:0px;transform:scale(0)">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                        <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
+                                        <path d="M9 12l2 2l4 -4"></path>
+                                    </svg>
+                                    <span>Send Message</span>
+                                </div>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</div><!--$--><!--/$-->
+<script src="/_next/static/chunks/webpack-ac32a89d9fcfd0d8.js" id="_R_" async=""></script>
+<script>(self.__next_f = self.__next_f || []).push([0])</script>
+<script>self.__next_f.push([1, "1:\"$Sreact.fragment\"\n2:I[27519,[\"177\",\"static/chunks/app/layout-4fd9d801923f0799.js\"],\"default\"]\n3:I[9766,[],\"\"]\n4:I[98924,[],\"\"]\n5:I[41402,[\"177\",\"static/chunks/app/layout-4fd9d801923f0799.js\"],\"\"]\n6:I[29840,[\"619\",\"static/chunks/619-f072ac750404f9da.js\",\"545\",\"static/chunks/545-e705723c6b271264.js\",\"356\",\"static/chunks/356-4fbb963125176205.js\",\"897\",\"static/chunks/897-b44922f47ae5a0a7.js\",\"974\",\"static/chunks/app/page-06275d5327a592d2.js\"],\"Banner\"]\n7:I[20496,[\"619\",\"static/chunks/619-f072ac750404f9da.js\",\"545\",\"static/chunks/545-e705723c6b271264.js\",\"356\",\"static/chunks/356-4fbb963125176205.js\",\"897\",\"static/chunks/897-b44922f47ae5a0a7.js\",\"974\",\"static/chunks/app/page-06275d5327a592d2.js\"],\"Navbar\"]\n8:I[71633,[\"619\",\"static/chunks/619-f072ac750404f9da.js\",\"545\",\"static/chunks/545-e705723c6b271264.js\",\"356\",\"static/chunks/356-4fbb963125176205.js\",\"897\",\"static/chunks/897-b44922f47ae5a0a7.js\",\"974\",\"static/chunks/app/page-06275d5327a592d2.js\"],\"TypingText\"]\n9:I[78019,[\"619\",\"static/chunks/619-f072ac750404f9da.js\",\"545\",\"static/chunks/545-e705723c6b271264.js\",\"356\",\"static/chunks/356-4fbb963125176205.js\",\"897\",\"static/chunks/897-b44922f47ae5a0a7.js\",\"974\",\"static/chunks/app/page-06275d5327a592d2.js\"],\"ShimmeringText\"]\n19:I[57150,[],\"\"]\n:HL[\"/_next/static/media/4cf2300e9c8272f7-s.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/93f479601ee12b01-s.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/css/57023275482e77dc.css\",\"style\"]\n:HL[\"/_next/static/css/89fb7522e073bbcd.css\",\"style\"]\n"])</script>
+<script>self.__next_f.push([1, "0:{\"P\":null,\"b\":\"bQnSTFWaj0NQjMhHNTKmD\",\"p\":\"\",\"c\":[\"\",\"\"],\"i\":false,\"f\":[[[\"\",{\"children\":[\"__PAGE__\",{}]},\"$undefined\",\"$undefined\",true],[\"\",[\"$\",\"$1\",\"c\",{\"children\":[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/57023275482e77dc.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}]],[\"$\",\"html\",null,{\"lang\":\"en\",\"suppressHydrationWarning\":true,\"children\":[\"$\",\"body\",null,{\"className\":\"__variable_188709 __variable_9a8899 antialiased\",\"children\":[[\"$\",\"script\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"\\n              (function() {\\n                function getInitialColorMode() {\\n                  const persistedColorPreference = window.localStorage.getItem('theme');\\n                  const hasPersistedPreference = typeof persistedColorPreference === 'string';\\n                  if (hasPersistedPreference) {\\n                    return persistedColorPreference;\\n                  }\\n                  const mql = window.matchMedia('(prefers-color-scheme: dark)');\\n                  const hasMediaQueryPreference = typeof mql.matches === 'boolean';\\n                  if (hasMediaQueryPreference) {\\n                    return mql.matches ? 'dark' : 'light';\\n                  }\\n                  return 'light';\\n                }\\n                const colorMode = getInitialColorMode();\\n                if (colorMode === 'dark') {\\n                  document.documentElement.classList.add('dark');\\n                }\\n              })();\\n            \"}}],[\"$\",\"$L2\",null,{}],[\"$\",\"$L3\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L4\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[[[\"$\",\"title\",null,{\"children\":\"404: This page could not be found.\"}],[\"$\",\"div\",null,{\"style\":{\"fontFamily\":\"system-ui,\\\"Segoe UI\\\",Roboto,Helvetica,Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\"\",\"height\":\"100vh\",\"textAlign\":\"center\",\"display\":\"flex\",\"flexDirection\":\"column\",\"alignItems\":\"center\",\"justifyContent\":\"center\"},\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\"}}],[\"$\",\"h1\",null,{\"className\":\"next-error-h1\",\"style\":{\"display\":\"inline-block\",\"margin\":\"0 20px 0 0\",\"padding\":\"0 23px 0 0\",\"fontSize\":24,\"fontWeight\":500,\"verticalAlign\":\"top\",\"lineHeight\":\"49px\"},\"children\":404}],[\"$\",\"div\",null,{\"style\":{\"display\":\"inline-block\"},\"children\":[\"$\",\"h2\",null,{\"style\":{\"fontSize\":14,\"fontWeight\":400,\"lineHeight\":\"49px\",\"margin\":0},\"children\":\"This page could not be found.\"}]}]]}]}]],[]],\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}],[\"$\",\"$L5\",null,{\"src\":\"/oneko/oneko.js\",\"data-cat\":\"/oneko/oneko.gif\"}]]}]}]]}],{\"children\":[\"__PAGE__\",[\"$\",\"$1\",\"c\",{\"children\":[[\"$\",\"div\",null,{\"className\":\"min-h-screen bg-background\",\"children\":[[\"$\",\"$L6\",null,{\"variant\":\"rainbow\",\"children\":\"🚀 Follow me for new projects and blog posts!\"}],[\"$\",\"$L7\",null,{}],[\"$\",\"main\",null,{\"className\":\"max-w-4xl mx-auto px-4 py-8 space-y-16\",\"children\":[[\"$\",\"section\",null,{\"className\":\"pt-16 pb-8\",\"children\":[\"$\",\"div\",null,{\"className\":\"space-y-6\",\"children\":[[\"$\",\"div\",null,{\"className\":\"space-y-4\",\"children\":[[\"$\",\"h1\",null,{\"className\":\"text-4xl md:text-5xl font-bold tracking-tight\",\"children\":[\"$\",\"$L8\",null,{\"text\":\"Hey, I'm Ufuk Ozen 👋\",\"speed\":100}]}],[\"$\",\"p\",null,{\"className\":\"text-xl text-muted-foreground max-w-2xl\",\"children\":[[\"$\",\"$L9\",null,{\"text\":\"Full Stack web developer\",\"className\":\"text-xl\"}],\" passionate about creating beautiful, functional, and user-friendly digital experiences.\"]}]]}],[\"$\",\"div\",null,{\"className\":\"flex flex-wrap gap-4\",\"children\":[[\"$\",\"div\",null,{\"className\":\"inline-block\",\"children\":[\"$\",\"button\",null,{\"style\":{\"--allColors\":\"#FF0000, #FFA500, #FFFF00, #008000, #0000FF, #4B0082, #EE82EE, #FF0000\",\"--duration\":\"2500ms\",\"--borderWidth\":\"2px\",\"--borderRadius\":\"6px\",\"--blur\":\"4px\",\"--bgColor\":\"#000\"},\"className\":\"relative flex items-center justify-center min-w-28 min-h-10 overflow-hidden rainbow-btn before:absolute before:-inset-[200%] animate-rainbow gap-2\",\"children\":\"$La\"}]}],\"$Lb\"]}],\"$Lc\"]}]}],\"$Ld\",\"$Le\",\"$Lf\",\"$L10\",\"$L11\",\"$L12\",\"$L13\",\"$L14\",\"$L15\"]}]]}],[\"$L16\"],\"$L17\"]}],{},null,false]},null,false],\"$L18\",false]],\"m\":\"$undefined\",\"G\":[\"$19\",[]],\"s\":false,\"S\":true}\n"])</script>
+<script>self.__next_f.push([1, "20:I[87581,[\"619\",\"static/chunks/619-f072ac750404f9da.js\",\"545\",\"static/chunks/545-e705723c6b271264.js\",\"356\",\"static/chunks/356-4fbb963125176205.js\",\"897\",\"static/chunks/897-b44922f47ae5a0a7.js\",\"974\",\"static/chunks/app/page-06275d5327a592d2.js\"],\"ProjectsSection\"]\n21:I[38722,[\"619\",\"static/chunks/619-f072ac750404f9da.js\",\"545\",\"static/chunks/545-e705723c6b271264.js\",\"356\",\"static/chunks/356-4fbb963125176205.js\",\"897\",\"static/chunks/897-b44922f47ae5a0a7.js\",\"974\",\"static/chunks/app/page-06275d5327a592d2.js\"],\"GitHubActivity\"]\n22:I[52619,[\"619\",\"static/chunks/619-f072ac750404f9da.js\",\"545\",\"static/chunks/545-e705723c6b271264.js\",\"356\",\"static/chunks/356-4fbb963125176205.js\",\"897\",\"static/chunks/897-b44922f47ae5a0a7.js\",\"974\",\"static/chunks/app/page-06275d5327a592d2.js\"],\"\"]\n23:I[81356,[\"619\",\"static/chunks/619-f072ac750404f9da.js\",\"545\",\"static/chunks/545-e705723c6b271264.js\",\"356\",\"static/chunks/356-4fbb963125176205.js\",\"897\",\"static/chunks/897-b44922f47ae5a0a7.js\",\"974\",\"static/chunks/app/page-06275d5327a592d2.js\"],\"Image\"]\n36:I[28803,[\"619\",\"static/chunks/619-f072ac750404f9da.js\",\"545\",\"static/chunks/545-e705723c6b271264.js\",\"356\",\"static/chunks/356-4fbb963125176205.js\",\"897\",\"static/chunks/897-b44922f47ae5a0a7.js\",\"974\",\"static/chunks/app/page-06275d5327a592d2.js\"],\"LinkedInPostsSection\"]\n37:I[25746,[\"619\",\"static/chunks/619-f072ac750404f9da.js\",\"545\",\"static/chunks/545-e705723c6b271264.js\",\"356\",\"static/chunks/356-4fbb963125176205.js\",\"897\",\"static/chunks/897-b44922f47ae5a0a7.js\",\"974\",\"static/chunks/app/page-06275d5327a592d2.js\"],\"default\"]\n38:I[13496,[\"619\",\"static/chunks/619-f072ac750404f9da.js\",\"545\",\"static/chunks/545-e705723c6b271264.js\",\"356\",\"static/chunks/356-4fbb963125176205.js\",\"897\",\"static/chunks/897-b44922f47ae5a0a7.js\",\"974\",\"static/chunks/app/page-06275d5327a592d2.js\"],\"Accordion\"]\n39:I[13496,[\"619\",\"static/chunks/619-f072ac750404f9da.js\",\"545\",\"static/chunks/545-e705723c6b271264.js\",\"356\",\"static/chunks/356-4fbb963125176205.js\",\"897\",\"static/chunks/897-b44922f47ae5a0a7.js\",\"974\",\"static/chun"])</script>
+<script>self.__next_f.push([1, "ks/app/page-06275d5327a592d2.js\"],\"AccordionItem\"]\n3a:I[13496,[\"619\",\"static/chunks/619-f072ac750404f9da.js\",\"545\",\"static/chunks/545-e705723c6b271264.js\",\"356\",\"static/chunks/356-4fbb963125176205.js\",\"897\",\"static/chunks/897-b44922f47ae5a0a7.js\",\"974\",\"static/chunks/app/page-06275d5327a592d2.js\"],\"AccordionTrigger\"]\n3b:I[13496,[\"619\",\"static/chunks/619-f072ac750404f9da.js\",\"545\",\"static/chunks/545-e705723c6b271264.js\",\"356\",\"static/chunks/356-4fbb963125176205.js\",\"897\",\"static/chunks/897-b44922f47ae5a0a7.js\",\"974\",\"static/chunks/app/page-06275d5327a592d2.js\"],\"AccordionContent\"]\n3e:I[24431,[],\"OutletBoundary\"]\n40:I[15278,[],\"AsyncMetadataOutlet\"]\n42:I[24431,[],\"ViewportBoundary\"]\n44:I[24431,[],\"MetadataBoundary\"]\n45:\"$Sreact.suspense\"\na:[\"$\",\"span\",null,{\"className\":\"text-white btn-content inline-flex w-full h-full items-center justify-center px-4 py-2\",\"children\":\"Get My Resume\"}]\n"])</script>
+<script>self.__next_f.push([1, "b:[\"$\",\"button\",null,{\"className\":\"inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 gap-2\",\"ref\":\"$undefined\",\"children\":[[\"$\",\"svg\",null,{\"ref\":\"$undefined\",\"xmlns\":\"http://www.w3.org/2000/svg\",\"width\":24,\"height\":24,\"viewBox\":\"0 0 24 24\",\"fill\":\"none\",\"stroke\":\"currentColor\",\"strokeWidth\":2,\"strokeLinecap\":\"round\",\"strokeLinejoin\":\"round\",\"className\":\"lucide lucide-phone h-4 w-4\",\"aria-hidden\":\"true\",\"children\":[[\"$\",\"path\",\"9njp5v\",{\"d\":\"M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384\"}],\"$undefined\"]}],\"Book a Call\"]}]\n"])</script>
+<script>self.__next_f.push([1, "c:[\"$\",\"div\",null,{\"className\":\"flex gap-4 pt-4\",\"children\":[[\"$\",\"a\",null,{\"href\":\"https://github.com/ufukozendev\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\",\"className\":\"text-muted-foreground hover:text-foreground transition-colors\",\"children\":[\"$\",\"svg\",null,{\"ref\":\"$undefined\",\"xmlns\":\"http://www.w3.org/2000/svg\",\"width\":24,\"height\":24,\"viewBox\":\"0 0 24 24\",\"fill\":\"none\",\"stroke\":\"currentColor\",\"strokeWidth\":2,\"strokeLinecap\":\"round\",\"strokeLinejoin\":\"round\",\"className\":\"lucide lucide-github h-5 w-5\",\"aria-hidden\":\"true\",\"children\":[[\"$\",\"path\",\"tonef\",{\"d\":\"M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4\"}],[\"$\",\"path\",\"9comsn\",{\"d\":\"M9 18c-4.51 2-5-2-7-2\"}],\"$undefined\"]}]}],[\"$\",\"a\",null,{\"href\":\"https://linkedin.com/in/ufukozendev\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\",\"className\":\"text-muted-foreground hover:text-foreground transition-colors\",\"children\":[\"$\",\"svg\",null,{\"ref\":\"$undefined\",\"xmlns\":\"http://www.w3.org/2000/svg\",\"width\":24,\"height\":24,\"viewBox\":\"0 0 24 24\",\"fill\":\"none\",\"stroke\":\"currentColor\",\"strokeWidth\":2,\"strokeLinecap\":\"round\",\"strokeLinejoin\":\"round\",\"className\":\"lucide lucide-linkedin h-5 w-5\",\"aria-hidden\":\"true\",\"children\":[[\"$\",\"path\",\"c2jq9f\",{\"d\":\"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z\"}],[\"$\",\"rect\",\"mk3on5\",{\"width\":\"4\",\"height\":\"12\",\"x\":\"2\",\"y\":\"9\"}],[\"$\",\"circle\",\"bt5ra8\",{\"cx\":\"4\",\"cy\":\"4\",\"r\":\"2\"}],\"$undefined\"]}]}],[\"$\",\"a\",null,{\"href\":\"https://twitter.com/ufukozendev\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\",\"className\":\"text-muted-foreground hover:text-foreground transition-colors\",\"children\":[\"$\",\"svg\",null,{\"ref\":\"$undefined\",\"xmlns\":\"http://www.w3.org/2000/svg\",\"width\":24,\"height\":24,\"viewBox\":\"0 0 24 24\",\"fill\":\"none\",\"stroke\":\"currentColor\",\"strokeWidth\":2,\"strokeLinecap\":\"round\",\"strokeLinejoin\":\"round\",\"className\":\"lucide lucide-twitter h-5 w-5\",\"aria-hidden\":\"true\",\"children\":[[\"$\",\"path\",\"pff0z6\",{\"d\":\"M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z\"}],\"$undefined\"]}]}]]}]\n"])</script>
+<script>self.__next_f.push([1, "d:[\"$\",\"section\",null,{\"id\":\"experience\",\"className\":\"space-y-8\",\"children\":[[\"$\",\"div\",null,{\"className\":\"space-y-2\",\"children\":[[\"$\",\"h2\",null,{\"className\":\"text-3xl font-bold tracking-tight\",\"children\":\"Work Experience\"}],[\"$\",\"p\",null,{\"className\":\"text-muted-foreground\",\"children\":\"My professional journey in software development\"}]]}],[\"$\",\"div\",null,{\"className\":\"grid gap-6\",\"children\":[[\"$\",\"div\",\"0\",{\"ref\":\"$undefined\",\"className\":\"rounded-lg border bg-card text-card-foreground shadow-sm hover:shadow-md transition-shadow\",\"children\":[[\"$\",\"div\",null,{\"ref\":\"$undefined\",\"className\":\"flex flex-col space-y-1.5 p-6\",\"children\":[\"$\",\"div\",null,{\"className\":\"flex justify-between items-start\",\"children\":[[\"$\",\"div\",null,{\"className\":\"space-y-2\",\"children\":[[\"$\",\"h3\",null,{\"ref\":\"$undefined\",\"className\":\"font-semibold tracking-tight text-xl\",\"children\":\"Full Stack Developer\"}],[\"$\",\"p\",null,{\"ref\":\"$undefined\",\"className\":\"text-lg font-medium text-foreground\",\"children\":\"Freelancer\"}]]}],[\"$\",\"div\",null,{\"className\":\"text-right text-sm text-muted-foreground\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex items-center gap-1\",\"children\":[[\"$\",\"svg\",null,{\"ref\":\"$undefined\",\"xmlns\":\"http://www.w3.org/2000/svg\",\"width\":24,\"height\":24,\"viewBox\":\"0 0 24 24\",\"fill\":\"none\",\"stroke\":\"currentColor\",\"strokeWidth\":2,\"strokeLinecap\":\"round\",\"strokeLinejoin\":\"round\",\"className\":\"lucide lucide-calendar-days h-4 w-4\",\"aria-hidden\":\"true\",\"children\":[[\"$\",\"path\",\"1cmpym\",{\"d\":\"M8 2v4\"}],[\"$\",\"path\",\"4m81vk\",{\"d\":\"M16 2v4\"}],[\"$\",\"rect\",\"1hopcy\",{\"width\":\"18\",\"height\":\"18\",\"x\":\"3\",\"y\":\"4\",\"rx\":\"2\"}],[\"$\",\"path\",\"8toen8\",{\"d\":\"M3 10h18\"}],[\"$\",\"path\",\"6423bh\",{\"d\":\"M8 14h.01\"}],[\"$\",\"path\",\"1etili\",{\"d\":\"M12 14h.01\"}],[\"$\",\"path\",\"1gbofw\",{\"d\":\"M16 14h.01\"}],[\"$\",\"path\",\"lrp35t\",{\"d\":\"M8 18h.01\"}],[\"$\",\"path\",\"mhygvu\",{\"d\":\"M12 18h.01\"}],[\"$\",\"path\",\"kzsmim\",{\"d\":\"M16 18h.01\"}],\"$undefined\"]}],\"2020 - Present\"]}],[\"$\",\"div\",null,{\"className\":\"flex items-center gap-1 mt-1\",\"children\":[[\"$\",\"svg\",null,{\"ref\":\"$undefined\",\"xmlns\":\"http://www.w3.org/2000/svg\",\"width\":24,\"height\":24,\"viewBox\":\"0 0 24 24\",\"fill\":\"none\",\"stroke\":\"currentColor\",\"strokeWidth\":2,\"strokeLinecap\":\"round\",\"strokeLinejoin\":\"round\",\"className\":\"lucide lucide-map-pin h-4 w-4\",\"aria-hidden\":\"true\",\"children\":[[\"$\",\"path\",\"1r0f0z\",{\"d\":\"M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0\"}],[\"$\",\"circle\",\"ilqhr7\",{\"cx\":\"12\",\"cy\":\"10\",\"r\":\"3\"}],\"$undefined\"]}],\"Remote\"]}]]}]]}]}],[\"$\",\"div\",null,{\"ref\":\"$undefined\",\"className\":\"p-6 pt-0 space-y-4\",\"children\":[[\"$\",\"p\",null,{\"className\":\"text-muted-foreground\",\"children\":\"Developing scalable web applications and mobile apps using modern technologies. Building end-to-end solutions from concept to deployment with focus on performance and user experience.\"}],[\"$\",\"div\",null,{\"className\":\"flex flex-wrap gap-2\",\"children\":[[\"$\",\"div\",\"React\",{\"className\":\"inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80\",\"children\":\"React\"}],[\"$\",\"div\",\"Next.js\",{\"className\":\"inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80\",\"children\":\"Next.js\"}],[\"$\",\"div\",\"Node.js\",{\"className\":\"inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80\",\"children\":\"Node.js\"}],[\"$\",\"div\",\"TypeScript\",{\"className\":\"inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80\",\"children\":\"TypeScript\"}],[\"$\",\"div\",\"React Native\",{\"className\":\"inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80\",\"children\":\"React Native\"}],\"$L1a\",\"$L1b\",\"$L1c\",\"$L1d\",\"$L1e\",\"$L1f\"]}]]}]]}]]}]]}]\n"])</script>
+<script>self.__next_f.push([1, "e:[\"$\",\"$L20\",null,{}]\n"])</script>
+<script>self.__next_f.push([1, "f:[\"$\",\"section\",null,{\"id\":\"about\",\"className\":\"space-y-8\",\"children\":[[\"$\",\"div\",null,{\"className\":\"space-y-2\",\"children\":[[\"$\",\"h2\",null,{\"className\":\"text-3xl font-bold tracking-tight\",\"children\":\"About Me\"}],[\"$\",\"p\",null,{\"className\":\"text-muted-foreground\",\"children\":\"A bit more about who I am and what I do\"}]]}],[\"$\",\"div\",null,{\"ref\":\"$undefined\",\"className\":\"rounded-lg border bg-card text-card-foreground shadow-sm\",\"children\":[\"$\",\"div\",null,{\"ref\":\"$undefined\",\"className\":\"p-6\",\"children\":[\"$\",\"div\",null,{\"className\":\"space-y-4\",\"children\":[[\"$\",\"p\",null,{\"className\":\"text-muted-foreground leading-relaxed\",\"children\":\"Hi, I'm Ufuk Ozen, a passionate mobile and web developer specializing in iOS apps with Swift, cross-platform apps with Flutter, and modern web applications with Next.js. I have extensive experience with databases, API integration, and backend development, creating scalable, high-performance, and user-friendly applications.\"}],[\"$\",\"p\",null,{\"className\":\"text-muted-foreground leading-relaxed\",\"children\":\"My work focuses on delivering clean, efficient, and maintainable code while staying up-to-date with the latest technologies and best practices. I am dedicated to turning ideas into functional and impactful digital solutions, optimizing both user experience and SEO.\"}],[\"$\",\"p\",null,{\"className\":\"text-muted-foreground leading-relaxed\",\"children\":\"I help businesses and individuals achieve their goals through innovative, high-quality applications that combine technical excellence with outstanding user experience.\"}]]}]}]}]]}]\n"])</script>
+<script>self.__next_f.push([1, "10:[\"$\",\"$L21\",null,{}]\n"])</script>
+<script>self.__next_f.push([1, "11:[\"$\",\"section\",null,{\"id\":\"blog\",\"className\":\"space-y-8\",\"children\":[[\"$\",\"div\",null,{\"className\":\"space-y-2\",\"children\":[[\"$\",\"h2\",null,{\"className\":\"text-3xl font-bold tracking-tight\",\"children\":\"Latest Blog Posts\"}],[\"$\",\"p\",null,{\"className\":\"text-muted-foreground\",\"children\":\"Thoughts, tutorials, and insights about web development\"}]]}],[\"$\",\"div\",null,{\"className\":\"grid gap-6 md:grid-cols-2 lg:grid-cols-3\",\"children\":[[\"$\",\"$L22\",\"0\",{\"href\":\"/blog/bible-widget-lock-screen-complete-guide\",\"children\":[\"$\",\"div\",null,{\"ref\":\"$undefined\",\"className\":\"rounded-lg border bg-card text-card-foreground shadow-sm hover:shadow-md transition-shadow cursor-pointer overflow-hidden\",\"children\":[[\"$\",\"div\",null,{\"className\":\"relative h-48 w-full\",\"children\":[\"$\",\"$L23\",null,{\"src\":\"/images/bible-widget-iphone-lock-screen-guide-2025.webp\",\"alt\":\"How to Add Bible Widget to iPhone Lock Screen: Complete Setup Guide 2025\",\"fill\":true,\"className\":\"object-cover\"}]}],[\"$\",\"div\",null,{\"ref\":\"$undefined\",\"className\":\"flex flex-col space-y-1.5 p-6\",\"children\":[\"$\",\"div\",null,{\"className\":\"space-y-2\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex items-center gap-2 text-sm text-muted-foreground\",\"children\":[[\"$\",\"svg\",null,{\"ref\":\"$undefined\",\"xmlns\":\"http://www.w3.org/2000/svg\",\"width\":24,\"height\":24,\"viewBox\":\"0 0 24 24\",\"fill\":\"none\",\"stroke\":\"currentColor\",\"strokeWidth\":2,\"strokeLinecap\":\"round\",\"strokeLinejoin\":\"round\",\"className\":\"lucide lucide-calendar-days h-4 w-4\",\"aria-hidden\":\"true\",\"children\":[[\"$\",\"path\",\"1cmpym\",{\"d\":\"M8 2v4\"}],[\"$\",\"path\",\"4m81vk\",{\"d\":\"M16 2v4\"}],[\"$\",\"rect\",\"1hopcy\",{\"width\":\"18\",\"height\":\"18\",\"x\":\"3\",\"y\":\"4\",\"rx\":\"2\"}],[\"$\",\"path\",\"8toen8\",{\"d\":\"M3 10h18\"}],[\"$\",\"path\",\"6423bh\",{\"d\":\"M8 14h.01\"}],[\"$\",\"path\",\"1etili\",{\"d\":\"M12 14h.01\"}],[\"$\",\"path\",\"1gbofw\",{\"d\":\"M16 14h.01\"}],[\"$\",\"path\",\"lrp35t\",{\"d\":\"M8 18h.01\"}],[\"$\",\"path\",\"mhygvu\",{\"d\":\"M12 18h.01\"}],[\"$\",\"path\",\"kzsmim\",{\"d\":\"M16 18h.01\"}],\"$undefined\"]}],\"2025-10-04\",[\"$\",\"span\",null,{\"children\":\"•\"}],\"6 min read\"]}],[\"$\",\"h3\",null,{\"ref\":\"$undefined\",\"className\":\"font-semibold tracking-tight text-lg\",\"children\":\"How to Add Bible Widget to iPhone Lock Screen: Complete Setup Guide 2025\"}],[\"$\",\"p\",null,{\"ref\":\"$undefined\",\"className\":\"text-sm text-muted-foreground\",\"children\":\"Complete step-by-step guide to add Bible verse widgets to your iPhone lock screen. Transform your daily spiritual routine with the best Bible Widget app for iOS.\"}]]}]}],[\"$\",\"div\",null,{\"ref\":\"$undefined\",\"className\":\"p-6 pt-0 space-y-4\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex flex-wrap gap-2\",\"children\":[[\"$\",\"div\",\"Bible Widget\",{\"className\":\"inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80\",\"children\":\"Bible Widget\"}],[\"$\",\"div\",\"Bible Verse Widget\",{\"className\":\"inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80\",\"children\":\"Bible Verse Widget\"}],[\"$\",\"div\",\"Lock Screen\",{\"className\":\"inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80\",\"children\":\"Lock Screen\"}],[\"$\",\"div\",\"iPhone Bible\",{\"className\":\"inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80\",\"children\":\"iPhone Bible\"}],[\"$\",\"div\",\"Daily Scripture\",{\"className\":\"inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80\",\"children\":\"Daily Scripture\"}],\"$L24\",\"$L25\",\"$L26\",\"$L27\",\"$L28\",\"$L29\",\"$L2a\",\"$L2b\",\"$L2c\",\"$L2d\",\"$L2e\",\"$L2f\",\"$L30\",\"$L31\"]}],\"$L32\"]}]]}]}],\"$L33\",\"$L34\"]}],\"$L35\"]}]\n"])</script>
+<script>self.__next_f.push([1, "12:[\"$\",\"$L36\",null,{}]\n13:[\"$\",\"$L37\",null,{}]\n"])</script>
+<script>self.__next_f.push([1, "14:[\"$\",\"section\",null,{\"className\":\"space-y-8\",\"children\":[[\"$\",\"div\",null,{\"className\":\"text-center space-y-4\",\"children\":[[\"$\",\"h2\",null,{\"className\":\"text-3xl font-bold tracking-tight\",\"children\":\"Frequently Asked Questions\"}],[\"$\",\"p\",null,{\"className\":\"text-muted-foreground text-lg max-w-2xl mx-auto\",\"children\":\"Common questions about my development services and expertise\"}]]}],[\"$\",\"$L38\",null,{\"type\":\"single\",\"collapsible\":true,\"className\":\"w-full max-w-3xl mx-auto\",\"children\":[[\"$\",\"$L39\",null,{\"value\":\"item-1\",\"children\":[[\"$\",\"$L3a\",null,{\"children\":\"What technologies do you specialize in?\"}],[\"$\",\"$L3b\",null,{\"children\":\"I specialize in modern web development technologies including React, Next.js, TypeScript, Node.js, and mobile development with React Native and Swift. I also have experience with cloud platforms like AWS and various databases including PostgreSQL and MongoDB.\"}]]}],[\"$\",\"$L39\",null,{\"value\":\"item-2\",\"children\":[[\"$\",\"$L3a\",null,{\"children\":\"How long does a typical project take?\"}],[\"$\",\"$L3b\",null,{\"children\":\"Project timelines vary depending on complexity and scope. A simple landing page might take 1-2 weeks, while a full-stack web application could take 2-3 months. I always provide detailed project timelines during the initial consultation phase.\"}]]}],[\"$\",\"$L39\",null,{\"value\":\"item-3\",\"children\":[[\"$\",\"$L3a\",null,{\"children\":\"Do you work with international clients?\"}],[\"$\",\"$L3b\",null,{\"children\":\"Yes, I work with clients globally. I'm comfortable with remote collaboration and have experience working across different time zones. Communication is primarily through email, Slack, or video calls depending on your preference.\"}]]}],[\"$\",\"$L39\",null,{\"value\":\"item-4\",\"children\":[[\"$\",\"$L3a\",null,{\"children\":\"What's your development process like?\"}],[\"$\",\"$L3b\",null,{\"children\":\"I follow an agile development approach with regular check-ins and updates. The process typically includes: initial consultation, project planning, design mockups, development phases with regular demos, testing, and deployment with ongoing support.\"}]]}],[\"$\",\"$L39\",null,{\"value\":\"item-5\",\"children\":[[\"$\",\"$L3a\",null,{\"children\":\"Do you provide ongoing maintenance and support?\"}],[\"$\",\"$L3b\",null,{\"children\":\"Yes, I offer ongoing maintenance packages that include bug fixes, security updates, performance optimization, and feature enhancements. Support packages can be customized based on your specific needs and budget.\"}]]}]]}]]}]\n"])</script>
+<script>self.__next_f.push([1, "15:[\"$\",\"section\",null,{\"id\":\"contact\",\"className\":\"space-y-8 pb-16\",\"children\":[[\"$\",\"div\",null,{\"className\":\"space-y-2\",\"children\":[[\"$\",\"h2\",null,{\"className\":\"text-3xl font-bold tracking-tight\",\"children\":\"Get In Touch\"}],[\"$\",\"p\",null,{\"className\":\"text-muted-foreground\",\"children\":\"Feel free to reach out for collaborations or just a friendly hello\"}]]}],[\"$\",\"div\",null,{\"className\":\"grid gap-6 md:grid-cols-2\",\"children\":[[\"$\",\"div\",null,{\"ref\":\"$undefined\",\"className\":\"rounded-lg border bg-card text-card-foreground shadow-sm\",\"children\":[[\"$\",\"div\",null,{\"ref\":\"$undefined\",\"className\":\"flex flex-col space-y-1.5 p-6\",\"children\":[[\"$\",\"h3\",null,{\"ref\":\"$undefined\",\"className\":\"text-2xl font-semibold leading-none tracking-tight\",\"children\":\"Contact Information\"}],[\"$\",\"p\",null,{\"ref\":\"$undefined\",\"className\":\"text-sm text-muted-foreground\",\"children\":\"Let's connect and discuss opportunities\"}]]}],[\"$\",\"div\",null,{\"ref\":\"$undefined\",\"className\":\"p-6 pt-0 space-y-6\",\"children\":[[\"$\",\"div\",null,{\"className\":\"space-y-4\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex items-center gap-3\",\"children\":[[\"$\",\"svg\",null,{\"ref\":\"$undefined\",\"xmlns\":\"http://www.w3.org/2000/svg\",\"width\":24,\"height\":24,\"viewBox\":\"0 0 24 24\",\"fill\":\"none\",\"stroke\":\"currentColor\",\"strokeWidth\":2,\"strokeLinecap\":\"round\",\"strokeLinejoin\":\"round\",\"className\":\"lucide lucide-mail h-5 w-5 text-muted-foreground\",\"aria-hidden\":\"true\",\"children\":[[\"$\",\"path\",\"132q7q\",{\"d\":\"m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7\"}],[\"$\",\"rect\",\"izxlao\",{\"x\":\"2\",\"y\":\"4\",\"width\":\"20\",\"height\":\"16\",\"rx\":\"2\"}],\"$undefined\"]}],[\"$\",\"div\",null,{\"children\":[[\"$\",\"p\",null,{\"className\":\"font-medium\",\"children\":\"Email\"}],[\"$\",\"p\",null,{\"className\":\"text-sm text-muted-foreground\",\"children\":\"info@ufukozen.com\"}]]}]]}],[\"$\",\"div\",null,{\"className\":\"flex items-center gap-3\",\"children\":[[\"$\",\"svg\",null,{\"ref\":\"$undefined\",\"xmlns\":\"http://www.w3.org/2000/svg\",\"width\":24,\"height\":24,\"viewBox\":\"0 0 24 24\",\"fill\":\"none\",\"stroke\":\"currentColor\",\"strokeWidth\":2,\"strokeLinecap\":\"round\",\"strokeLinejoin\":\"round\",\"className\":\"lucide lucide-map-pin h-5 w-5 text-muted-foreground\",\"aria-hidden\":\"true\",\"children\":[[\"$\",\"path\",\"1r0f0z\",{\"d\":\"M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0\"}],[\"$\",\"circle\",\"ilqhr7\",{\"cx\":\"12\",\"cy\":\"10\",\"r\":\"3\"}],\"$undefined\"]}],[\"$\",\"div\",null,{\"children\":[[\"$\",\"p\",null,{\"className\":\"font-medium\",\"children\":\"Location\"}],[\"$\",\"p\",null,{\"className\":\"text-sm text-muted-foreground\",\"children\":\"Turkey, İzmir\"}]]}]]}]]}],[\"$\",\"div\",null,{\"className\":\"space-y-3\",\"children\":[[\"$\",\"p\",null,{\"className\":\"font-medium\",\"children\":\"Follow me\"}],[\"$\",\"div\",null,{\"className\":\"flex gap-4\",\"children\":[[\"$\",\"a\",null,{\"href\":\"https://github.com/ufukozendev\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\",\"className\":\"text-muted-foreground hover:text-foreground transition-colors\",\"children\":[\"$\",\"svg\",null,{\"ref\":\"$undefined\",\"xmlns\":\"http://www.w3.org/2000/svg\",\"width\":24,\"height\":24,\"viewBox\":\"0 0 24 24\",\"fill\":\"none\",\"stroke\":\"currentColor\",\"strokeWidth\":2,\"strokeLinecap\":\"round\",\"strokeLinejoin\":\"round\",\"className\":\"lucide lucide-github h-5 w-5\",\"aria-hidden\":\"true\",\"children\":[[\"$\",\"path\",\"tonef\",{\"d\":\"M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4\"}],[\"$\",\"path\",\"9comsn\",{\"d\":\"M9 18c-4.51 2-5-2-7-2\"}],\"$undefined\"]}]}],[\"$\",\"a\",null,{\"href\":\"https://linkedin.com/in/ufukozendev\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\",\"className\":\"text-muted-foreground hover:text-foreground transition-colors\",\"children\":[\"$\",\"svg\",null,{\"ref\":\"$undefined\",\"xmlns\":\"http://www.w3.org/2000/svg\",\"width\":24,\"height\":24,\"viewBox\":\"0 0 24 24\",\"fill\":\"none\",\"stroke\":\"currentColor\",\"strokeWidth\":2,\"strokeLinecap\":\"round\",\"strokeLinejoin\":\"round\",\"className\":\"lucide lucide-linkedin h-5 w-5\",\"aria-hidden\":\"true\",\"children\":[[\"$\",\"path\",\"c2jq9f\",{\"d\":\"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z\"}],[\"$\",\"rect\",\"mk3on5\",{\"width\":\"4\",\"height\":\"12\",\"x\":\"2\",\"y\":\"9\"}],[\"$\",\"circle\",\"bt5ra8\",{\"cx\":\"4\",\"cy\":\"4\",\"r\":\"2\"}],\"$undefined\"]}]}],[\"$\",\"a\",null,{\"href\":\"https://twitter.com/ufukozendev\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\",\"className\":\"text-muted-foreground hover:text-foreground transition-colors\",\"children\":[\"$\",\"svg\",null,{\"ref\":\"$undefined\",\"xmlns\":\"http://www.w3.org/2000/svg\",\"width\":24,\"height\":24,\"viewBox\":\"0 0 24 24\",\"fill\":\"none\",\"stroke\":\"currentColor\",\"strokeWidth\":2,\"strokeLinecap\":\"round\",\"strokeLinejoin\":\"round\",\"className\":\"lucide lucide-twitter h-5 w-5\",\"aria-hidden\":\"true\",\"children\":[\"$L3c\",\"$undefined\"]}]}]]}]]}]]}],\"$L3d\"]}]]}]\n"])</script>
+<script>self.__next_f.push([1, "16:[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/89fb7522e073bbcd.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}]\n17:[\"$\",\"$L3e\",null,{\"children\":[\"$L3f\",[\"$\",\"$L40\",null,{\"promise\":\"$@41\"}]]}]\n18:[\"$\",\"$1\",\"h\",{\"children\":[null,[[\"$\",\"$L42\",null,{\"children\":\"$L43\"}],[\"$\",\"meta\",null,{\"name\":\"next-size-adjust\",\"content\":\"\"}]],[\"$\",\"$L44\",null,{\"children\":[\"$\",\"div\",null,{\"hidden\":true,\"children\":[\"$\",\"$45\",null,{\"fallback\":null,\"children\":\"$L46\"}]}]}]]}]\n"])</script>
+<script>self.__next_f.push([1, "4d:I[9203,[\"619\",\"static/chunks/619-f072ac750404f9da.js\",\"545\",\"static/chunks/545-e705723c6b271264.js\",\"356\",\"static/chunks/356-4fbb963125176205.js\",\"897\",\"static/chunks/897-b44922f47ae5a0a7.js\",\"974\",\"static/chunks/app/page-06275d5327a592d2.js\"],\"Button\"]\n1a:[\"$\",\"div\",\"SwiftUI\",{\"className\":\"inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80\",\"children\":\"SwiftUI\"}]\n1b:[\"$\",\"div\",\"Flutter\",{\"className\":\"inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80\",\"children\":\"Flutter\"}]\n1c:[\"$\",\"div\",\"Swift\",{\"className\":\"inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80\",\"children\":\"Swift\"}]\n1d:[\"$\",\"div\",\"PostgreSQL\",{\"className\":\"inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80\",\"children\":\"PostgreSQL\"}]\n1e:[\"$\",\"div\",\"MongoDB\",{\"className\":\"inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80\",\"children\":\"MongoDB\"}]\n1f:[\"$\",\"div\",\"AWS\",{\"className\":\"inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-second"])</script>
+<script>self.__next_f.push([1, "ary-foreground hover:bg-secondary/80\",\"children\":\"AWS\"}]\n24:[\"$\",\"div\",\"Verse of the Day\",{\"className\":\"inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80\",\"children\":\"Verse of the Day\"}]\n25:[\"$\",\"div\",\"Christian Apps\",{\"className\":\"inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80\",\"children\":\"Christian Apps\"}]\n26:[\"$\",\"div\",\"Bible Study\",{\"className\":\"inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80\",\"children\":\"Bible Study\"}]\n27:[\"$\",\"div\",\"iOS Widgets\",{\"className\":\"inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80\",\"children\":\"iOS Widgets\"}]\n28:[\"$\",\"div\",\"Bible Study App\",{\"className\":\"inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80\",\"children\":\"Bible Study App\"}]\n29:[\"$\",\"div\",\"How to Add Bible Verse Widget\",{\"className\":\"inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80\",\"children\":\"How to Add Bible Verse Widget\"}]\n2a:[\"$\",\"div\",\"Lock Screen Bi"])</script>
+<script>self.__next_f.push([1, "ble\",{\"className\":\"inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80\",\"children\":\"Lock Screen Bible\"}]\n2b:[\"$\",\"div\",\"Daily Verses\",{\"className\":\"inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80\",\"children\":\"Daily Verses\"}]\n2c:[\"$\",\"div\",\"Christian iPhone Apps\",{\"className\":\"inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80\",\"children\":\"Christian iPhone Apps\"}]\n2d:[\"$\",\"div\",\"Scripture Apps\",{\"className\":\"inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80\",\"children\":\"Scripture Apps\"}]\n2e:[\"$\",\"div\",\"Bible App\",{\"className\":\"inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80\",\"children\":\"Bible App\"}]\n2f:[\"$\",\"div\",\"iPhone Widgets\",{\"className\":\"inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80\",\"children\":\"iPhone Widgets\"}]\n30:[\"$\",\"div\",\"Faith Apps\",{\"className\":\"inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-\"])</script>
+<script>self.__next_f.push([1, "colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80\",\"children\":\"Faith Apps\"}]\n31:[\"$\",\"div\",\"Spiritual Apps\",{\"className\":\"inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80\",\"children\":\"Spiritual Apps\"}]\n32:[\"$\",\"div\",null,{\"className\":\"flex items-center justify-between text-sm text-muted-foreground mt-2\",\"children\":[[\"$\",\"span\",null,{\"children\":\"Read more\"}],[\"$\",\"svg\",null,{\"ref\":\"$undefined\",\"xmlns\":\"http://www.w3.org/2000/svg\",\"width\":24,\"height\":24,\"viewBox\":\"0 0 24 24\",\"fill\":\"none\",\"stroke\":\"currentColor\",\"strokeWidth\":2,\"strokeLinecap\":\"round\",\"strokeLinejoin\":\"round\",\"className\":\"lucide lucide-arrow-right h-4 w-4\",\"aria-hidden\":\"true\",\"children\":[[\"$\",\"path\",\"1ays0h\",{\"d\":\"M5 12h14\"}],[\"$\",\"path\",\"xquz4c\",{\"d\":\"m12 5 7 7-7 7\"}],\"$undefined\"]}]]}]\n"])</script>
+<script>self.__next_f.push([1, "33:[\"$\",\"$L22\",\"1\",{\"href\":\"/blog/gemini-3-early-access-guide\",\"children\":[\"$\",\"div\",null,{\"ref\":\"$undefined\",\"className\":\"rounded-lg border bg-card text-card-foreground shadow-sm hover:shadow-md transition-shadow cursor-pointer overflow-hidden\",\"children\":[[\"$\",\"div\",null,{\"className\":\"relative h-48 w-full\",\"children\":[\"$\",\"$L23\",null,{\"src\":\"/images/gemini-3-early-access-hero.webp\",\"alt\":\"How to Get Early Access to Google Gemini 3.0: Complete Guide 2025\",\"fill\":true,\"className\":\"object-cover\"}]}],[\"$\",\"div\",null,{\"ref\":\"$undefined\",\"className\":\"flex flex-col space-y-1.5 p-6\",\"children\":[\"$\",\"div\",null,{\"className\":\"space-y-2\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex items-center gap-2 text-sm text-muted-foreground\",\"children\":[[\"$\",\"svg\",null,{\"ref\":\"$undefined\",\"xmlns\":\"http://www.w3.org/2000/svg\",\"width\":24,\"height\":24,\"viewBox\":\"0 0 24 24\",\"fill\":\"none\",\"stroke\":\"currentColor\",\"strokeWidth\":2,\"strokeLinecap\":\"round\",\"strokeLinejoin\":\"round\",\"className\":\"lucide lucide-calendar-days h-4 w-4\",\"aria-hidden\":\"true\",\"children\":[[\"$\",\"path\",\"1cmpym\",{\"d\":\"M8 2v4\"}],[\"$\",\"path\",\"4m81vk\",{\"d\":\"M16 2v4\"}],[\"$\",\"rect\",\"1hopcy\",{\"width\":\"18\",\"height\":\"18\",\"x\":\"3\",\"y\":\"4\",\"rx\":\"2\"}],[\"$\",\"path\",\"8toen8\",{\"d\":\"M3 10h18\"}],[\"$\",\"path\",\"6423bh\",{\"d\":\"M8 14h.01\"}],[\"$\",\"path\",\"1etili\",{\"d\":\"M12 14h.01\"}],[\"$\",\"path\",\"1gbofw\",{\"d\":\"M16 14h.01\"}],[\"$\",\"path\",\"lrp35t\",{\"d\":\"M8 18h.01\"}],[\"$\",\"path\",\"mhygvu\",{\"d\":\"M12 18h.01\"}],[\"$\",\"path\",\"kzsmim\",{\"d\":\"M16 18h.01\"}],\"$undefined\"]}],\"2025-10-04\",[\"$\",\"span\",null,{\"children\":\"•\"}],\"9 min read\"]}],[\"$\",\"h3\",null,{\"ref\":\"$undefined\",\"className\":\"font-semibold tracking-tight text-lg\",\"children\":\"How to Get Early Access to Google Gemini 3.0: Complete Guide 2025\"}],[\"$\",\"p\",null,{\"ref\":\"$undefined\",\"className\":\"text-sm text-muted-foreground\",\"children\":\"Complete step-by-step guide to get early access to Google Gemini 3.0 through AI Studio. Latest Google Gemini News reveals how to access Gemini 3 features before public release.\"}]]}]}],[\"$\",\"div\",null,{\"ref\":\"$undefined\",\"className\":\"p-6 pt-0 space-y-4\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex flex-wrap gap-2\",\"children\":[[\"$\",\"div\",\"Google Gemini 3.0\",{\"className\":\"inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80\",\"children\":\"Google Gemini 3.0\"}],[\"$\",\"div\",\"Gemini 3\",{\"className\":\"inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80\",\"children\":\"Gemini 3\"}],[\"$\",\"div\",\"Google Gemini News\",{\"className\":\"inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80\",\"children\":\"Google Gemini News\"}],[\"$\",\"div\",\"AI Studio\",{\"className\":\"inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80\",\"children\":\"AI Studio\"}],[\"$\",\"div\",\"Early Access\",{\"className\":\"inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80\",\"children\":\"Early Access\"}],[\"$\",\"div\",\"Google AI\",{\"className\":\"inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80\",\"children\":\"Google AI\"}],\"$L47\",\"$L48\"]}],\"$L49\"]}]]}]}]\n"])</script>
+<script>self.__next_f.push([1, "34:[\"$\",\"$L22\",\"2\",{\"href\":\"/blog/grok-code-fast-free-cline\",\"children\":[\"$\",\"div\",null,{\"ref\":\"$undefined\",\"className\":\"rounded-lg border bg-card text-card-foreground shadow-sm hover:shadow-md transition-shadow cursor-pointer overflow-hidden\",\"children\":[[\"$\",\"div\",null,{\"className\":\"relative h-48 w-full\",\"children\":[\"$\",\"$L23\",null,{\"src\":\"/images/grok-code-fast-cline-free-access-official.webp\",\"alt\":\"Grok Code Fast 1 - Now 100% FREE on Cline\",\"fill\":true,\"className\":\"object-cover\"}]}],[\"$\",\"div\",null,{\"ref\":\"$undefined\",\"className\":\"flex flex-col space-y-1.5 p-6\",\"children\":[\"$\",\"div\",null,{\"className\":\"space-y-2\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex items-center gap-2 text-sm text-muted-foreground\",\"children\":[[\"$\",\"svg\",null,{\"ref\":\"$undefined\",\"xmlns\":\"http://www.w3.org/2000/svg\",\"width\":24,\"height\":24,\"viewBox\":\"0 0 24 24\",\"fill\":\"none\",\"stroke\":\"currentColor\",\"strokeWidth\":2,\"strokeLinecap\":\"round\",\"strokeLinejoin\":\"round\",\"className\":\"lucide lucide-calendar-days h-4 w-4\",\"aria-hidden\":\"true\",\"children\":[[\"$\",\"path\",\"1cmpym\",{\"d\":\"M8 2v4\"}],[\"$\",\"path\",\"4m81vk\",{\"d\":\"M16 2v4\"}],[\"$\",\"rect\",\"1hopcy\",{\"width\":\"18\",\"height\":\"18\",\"x\":\"3\",\"y\":\"4\",\"rx\":\"2\"}],[\"$\",\"path\",\"8toen8\",{\"d\":\"M3 10h18\"}],[\"$\",\"path\",\"6423bh\",{\"d\":\"M8 14h.01\"}],[\"$\",\"path\",\"1etili\",{\"d\":\"M12 14h.01\"}],[\"$\",\"path\",\"1gbofw\",{\"d\":\"M16 14h.01\"}],[\"$\",\"path\",\"lrp35t\",{\"d\":\"M8 18h.01\"}],[\"$\",\"path\",\"mhygvu\",{\"d\":\"M12 18h.01\"}],[\"$\",\"path\",\"kzsmim\",{\"d\":\"M16 18h.01\"}],\"$undefined\"]}],\"2025-10-04\",[\"$\",\"span\",null,{\"children\":\"•\"}],\"6 min read\"]}],[\"$\",\"h3\",null,{\"ref\":\"$undefined\",\"className\":\"font-semibold tracking-tight text-lg\",\"children\":\"Grok Code Fast 1 - Now 100% FREE on Cline\"}],[\"$\",\"p\",null,{\"ref\":\"$undefined\",\"className\":\"text-sm text-muted-foreground\",\"children\":\"Revolutionary news: xAI's Grok Code Fast now outperforms Claude Sonnet 4.5 and GPT-5 Codex in diff edit success rates while being 15x and 6x cheaper respectively. Get 100% FREE access through Cline extension - Complete setup guide and exclusive insights.\"}]]}]}],[\"$\",\"div\",null,{\"ref\":\"$undefined\",\"className\":\"p-6 pt-0 space-y-4\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex flex-wrap gap-2\",\"children\":[[\"$\",\"div\",\"Grok Code Fast\",{\"className\":\"inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80\",\"children\":\"Grok Code Fast\"}],[\"$\",\"div\",\"xAI\",{\"className\":\"inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80\",\"children\":\"xAI\"}],[\"$\",\"div\",\"Cline\",{\"className\":\"inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80\",\"children\":\"Cline\"}],[\"$\",\"div\",\"Free AI\",{\"className\":\"inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80\",\"children\":\"Free AI\"}],[\"$\",\"div\",\"AI Coding\",{\"className\":\"inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80\",\"children\":\"AI Coding\"}],[\"$\",\"div\",\"Claude 4.5\",{\"className\":\"inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80\",\"children\":\"Claude 4.5\"}],\"$L4a\",\"$L4b\"]}],\"$L4c\"]}]]}]}]\n"])</script>
+<script>self.__next_f.push([1, "35:[\"$\",\"div\",null,{\"className\":\"text-center mt-8\",\"children\":[\"$\",\"$L22\",null,{\"href\":\"/blog\",\"children\":[\"$\",\"div\",null,{\"className\":\"inline-block\",\"children\":[\"$\",\"button\",null,{\"style\":{\"--allColors\":\"#FF0000, #FFA500, #FFFF00, #008000, #0000FF, #4B0082, #EE82EE, #FF0000\",\"--duration\":\"2500ms\",\"--borderWidth\":\"2px\",\"--borderRadius\":\"6px\",\"--blur\":\"4px\",\"--bgColor\":\"#000\"},\"className\":\"relative justify-center min-w-28 min-h-10 overflow-hidden rainbow-btn before:absolute before:-inset-[200%] animate-rainbow inline-flex items-center gap-2\",\"children\":[\"$\",\"span\",null,{\"className\":\"text-white btn-content inline-flex w-full h-full items-center justify-center px-4 py-2\",\"children\":\"View More Posts\"}]}]}]}]}]\n"])</script>
+<script>self.__next_f.push([1, "3c:[\"$\",\"path\",\"pff0z6\",{\"d\":\"M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z\"}]\n"])</script>
+<script>self.__next_f.push([1, "3d:[\"$\",\"div\",null,{\"ref\":\"$undefined\",\"className\":\"rounded-lg border bg-card text-card-foreground shadow-sm\",\"children\":[[\"$\",\"div\",null,{\"ref\":\"$undefined\",\"className\":\"flex flex-col space-y-1.5 p-6\",\"children\":[[\"$\",\"h3\",null,{\"ref\":\"$undefined\",\"className\":\"text-2xl font-semibold leading-none tracking-tight\",\"children\":\"Send a Message\"}],[\"$\",\"p\",null,{\"ref\":\"$undefined\",\"className\":\"text-sm text-muted-foreground\",\"children\":\"Or use the form below to send me a direct message\"}]]}],[\"$\",\"div\",null,{\"ref\":\"$undefined\",\"className\":\"p-6 pt-0 space-y-4\",\"children\":[\"$\",\"form\",null,{\"className\":\"space-y-4\",\"children\":[[\"$\",\"div\",null,{\"className\":\"space-y-2\",\"children\":[[\"$\",\"label\",null,{\"htmlFor\":\"name\",\"className\":\"text-sm font-medium\",\"children\":\"Name\"}],[\"$\",\"input\",null,{\"id\":\"name\",\"type\":\"text\",\"placeholder\":\"Your name\",\"className\":\"w-full px-3 py-2 border rounded-md bg-background text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring\"}]]}],[\"$\",\"div\",null,{\"className\":\"space-y-2\",\"children\":[[\"$\",\"label\",null,{\"htmlFor\":\"email\",\"className\":\"text-sm font-medium\",\"children\":\"Email\"}],[\"$\",\"input\",null,{\"id\":\"email\",\"type\":\"email\",\"placeholder\":\"your.email@example.com\",\"className\":\"w-full px-3 py-2 border rounded-md bg-background text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring\"}]]}],[\"$\",\"div\",null,{\"className\":\"space-y-2\",\"children\":[[\"$\",\"label\",null,{\"htmlFor\":\"message\",\"className\":\"text-sm font-medium\",\"children\":\"Message\"}],[\"$\",\"textarea\",null,{\"id\":\"message\",\"rows\":4,\"placeholder\":\"Your message...\",\"className\":\"w-full px-3 py-2 border rounded-md bg-background text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring resize-none\"}]]}],[\"$\",\"$L4d\",null,{\"type\":\"submit\",\"className\":\"w-full\",\"children\":\"Send Message\"}]]}]}]]}]\n"])</script>
+<script>self.__next_f.push([1, "47:[\"$\",\"div\",\"Machine Learning\",{\"className\":\"inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80\",\"children\":\"Machine Learning\"}]\n48:[\"$\",\"div\",\"Artificial Intelligence\",{\"className\":\"inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80\",\"children\":\"Artificial Intelligence\"}]\n49:[\"$\",\"div\",null,{\"className\":\"flex items-center justify-between text-sm text-muted-foreground mt-2\",\"children\":[[\"$\",\"span\",null,{\"children\":\"Read more\"}],[\"$\",\"svg\",null,{\"ref\":\"$undefined\",\"xmlns\":\"http://www.w3.org/2000/svg\",\"width\":24,\"height\":24,\"viewBox\":\"0 0 24 24\",\"fill\":\"none\",\"stroke\":\"currentColor\",\"strokeWidth\":2,\"strokeLinecap\":\"round\",\"strokeLinejoin\":\"round\",\"className\":\"lucide lucide-arrow-right h-4 w-4\",\"aria-hidden\":\"true\",\"children\":[[\"$\",\"path\",\"1ays0h\",{\"d\":\"M5 12h14\"}],[\"$\",\"path\",\"xquz4c\",{\"d\":\"m12 5 7 7-7 7\"}],\"$undefined\"]}]]}]\n4a:[\"$\",\"div\",\"GPT-5 Codex\",{\"className\":\"inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80\",\"children\":\"GPT-5 Codex\"}]\n4b:[\"$\",\"div\",\"AI Models\",{\"className\":\"inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80\",\"children\":\"AI Models\"}]\n4c:[\"$\",\"div\",null,{\"className\":\"flex items-center justify-between text-sm text-muted-foreground mt-2\",\"children\":[[\"$\",\"span\",null,{\"children\":\"Read more\"}],[\"$\",\"svg\",null,{\"ref\":\"$undef"])</script>
+<script>self.__next_f.push([1, "ined\",\"xmlns\":\"http://www.w3.org/2000/svg\",\"width\":24,\"height\":24,\"viewBox\":\"0 0 24 24\",\"fill\":\"none\",\"stroke\":\"currentColor\",\"strokeWidth\":2,\"strokeLinecap\":\"round\",\"strokeLinejoin\":\"round\",\"className\":\"lucide lucide-arrow-right h-4 w-4\",\"aria-hidden\":\"true\",\"children\":[[\"$\",\"path\",\"1ays0h\",{\"d\":\"M5 12h14\"}],[\"$\",\"path\",\"xquz4c\",{\"d\":\"m12 5 7 7-7 7\"}],\"$undefined\"]}]]}]\n"])</script>
+<script>self.__next_f.push([1, "43:[[\"$\",\"meta\",\"0\",{\"charSet\":\"utf-8\"}],[\"$\",\"meta\",\"1\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}]]\n3f:null\n"])</script>
+<script>self.__next_f.push([1, "4e:I[80622,[],\"IconMark\"]\n"])</script>
+<script>self.__next_f.push([1, "41:{\"metadata\":[[\"$\",\"title\",\"0\",{\"children\":\"Ufuk Ozen - Full Stack Developer \\u0026 iOS App Creator\"}],[\"$\",\"meta\",\"1\",{\"name\":\"description\",\"content\":\"Full Stack web developer and iOS app creator specializing in Swift, SwiftUI, React, and Next.js. Creator of Bible Verse Widget and other innovative mobile applications.\"}],[\"$\",\"meta\",\"2\",{\"name\":\"author\",\"content\":\"Ufuk Ozen\"}],[\"$\",\"meta\",\"3\",{\"name\":\"keywords\",\"content\":\"Full Stack Developer, iOS Developer, Swift, SwiftUI, React, Next.js, Bible Verse Widget, Mobile App Development, Web Development, JavaScript, TypeScript\"}],[\"$\",\"meta\",\"4\",{\"name\":\"creator\",\"content\":\"Ufuk Ozen\"}],[\"$\",\"meta\",\"5\",{\"name\":\"publisher\",\"content\":\"Ufuk Ozen\"}],[\"$\",\"meta\",\"6\",{\"name\":\"robots\",\"content\":\"index, follow\"}],[\"$\",\"meta\",\"7\",{\"name\":\"googlebot\",\"content\":\"index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1\"}],[\"$\",\"link\",\"8\",{\"rel\":\"canonical\",\"href\":\"https://ufukozen.com\"}],[\"$\",\"meta\",\"9\",{\"name\":\"google-site-verification\",\"content\":\"your-google-verification-code\"}],[\"$\",\"meta\",\"10\",{\"property\":\"og:title\",\"content\":\"Ufuk Ozen - Full Stack Developer \\u0026 iOS App Creator\"}],[\"$\",\"meta\",\"11\",{\"property\":\"og:description\",\"content\":\"Full Stack web developer and iOS app creator specializing in Swift, SwiftUI, React, and Next.js. Creator of Bible Verse Widget and other innovative mobile applications.\"}],[\"$\",\"meta\",\"12\",{\"property\":\"og:url\",\"content\":\"https://ufukozen.com\"}],[\"$\",\"meta\",\"13\",{\"property\":\"og:site_name\",\"content\":\"Ufuk Ozen Portfolio\"}],[\"$\",\"meta\",\"14\",{\"property\":\"og:locale\",\"content\":\"en_US\"}],[\"$\",\"meta\",\"15\",{\"property\":\"og:image\",\"content\":\"https://ufukozen.com/og-image.png\"}],[\"$\",\"meta\",\"16\",{\"property\":\"og:image:width\",\"content\":\"1200\"}],[\"$\",\"meta\",\"17\",{\"property\":\"og:image:height\",\"content\":\"630\"}],[\"$\",\"meta\",\"18\",{\"property\":\"og:image:alt\",\"content\":\"Ufuk Ozen - Full Stack Developer Portfolio\"}],[\"$\",\"meta\",\"19\",{\"property\":\"og:type\",\"content\":\"website\"}],[\"$\",\"meta\",\"20\",{\"name\":\"twitter:card\",\"content\":\"summary_large_image\"}],[\"$\",\"meta\",\"21\",{\"name\":\"twitter:title\",\"content\":\"Ufuk Ozen - Full Stack Developer \\u0026 iOS App Creator\"}],[\"$\",\"meta\",\"22\",{\"name\":\"twitter:description\",\"content\":\"Full Stack web developer and iOS app creator specializing in Swift, SwiftUI, React, and Next.js.\"}],[\"$\",\"meta\",\"23\",{\"name\":\"twitter:image\",\"content\":\"https://ufukozen.com/og-image.png\"}],[\"$\",\"link\",\"24\",{\"rel\":\"icon\",\"href\":\"/favicon.ico\",\"type\":\"image/x-icon\",\"sizes\":\"16x16\"}],[\"$\",\"$L4e\",\"25\",{}]],\"error\":null,\"digest\":\"$undefined\"}\n"])</script>
+<script>self.__next_f.push([1, "46:\"$41:metadata\"\n"])</script>
+</body>
+</html>
+``````
